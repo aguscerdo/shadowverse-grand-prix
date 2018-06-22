@@ -25,23 +25,27 @@ def count_col(df, col): # TODO return one col instead of 2
 def mean_col(df, group, col):
     return df.groupby(group).mean()[col]
 
-
+def phead(df):
+    print(df.head)
 
 # ------------------ DF works ------------------ #
-def verticalize(path_in, path_out):
-    index = 0
-    header = ["mid", "deck_u", "arch_u", "deck_o", "arch_o", "win", "gnum"]
+def verticalize(path_csv_out, df=None, force=False):
+    try:
+        if force:
+            i = 1/0
+        vertical = pd.read_csv(path_csv_out)
+    except:
+        if df is None:
+            return 0
+        data = []
+        for i in range(1, 6):
+            d = df[["Timestamp", "Class", "Archetype", "Class{}".format(i), "Archetype{}".format(i), "Result{}".format(i)]]
+            dict = {"Class{}".format(i):'Class_o', "Archetype{}".format(i):'Archetype_o', "Result{}".format(i):"Result"}
+            data.append(d.rename(columns=dict))
 
-    file_in = open(path_in, 'rb')
-    csv_in = csv.reader(file_in, delimiter=',')
-
-    df = pd.DataFrame(columns=["mid", "deck_u", "arch_u", "deck_o", "arch_o", "win", "gnum"])
-    data = []
-
-    for row in csv_in:
-        index += 1
-        for i in range(1,6):
-
+        vertical = pd.concat(data)
+        vertical.to_csv(path_csv_out)
+    return vertical
 
 
 
@@ -72,15 +76,6 @@ def show_plots(plot, title):
     plot.show()
 
 
-
-
 def save_plot(plot, title, loc="plots"):
     plot.title(title)
     plot.savefig("{}/{}.png".format(loc, title))
-
-
-
-
-
-
-# TODO plot functions, Pies, bar, scatter

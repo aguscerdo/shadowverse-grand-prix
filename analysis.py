@@ -10,11 +10,11 @@ def analyze(df):
 
 
     # Rank Statistics
-    rank_class = count_cols(df, ['Rank', 'Class'])
-    rank_wins = count_cols(df, ['Rank', 'Wins'])
+    rank_class = count_col(df, ['Rank', 'Class'])
+    rank_wins = count_col(df, ['Rank', 'Wins'])
 
     # Class Statistics
-    class_archetype = count_cols(df, ['Class', 'Archetype'])
+    class_archetype = count_col(df, ['Class', 'Archetype'])
 
 
 
