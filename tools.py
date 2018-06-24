@@ -71,8 +71,14 @@ def stack_match(df, c=None):
 
 
 def most_popular_n(df, n=10):
-    df0 = stack_match(df)
-    return count_col(df0, ['Class', 'Archetype']).nlargest(n)
+    # Opponent single
+    df0 = df.copy()
+    df0[['Class', 'Archetype', 'Class_o', 'Archetype_o']] = df0[['Class_o', 'Archetype_o', 'Class', 'Archetype']]
+
+    # User Once Only
+    df1 = df.copy().drop_duplicates(['Timestamp'])
+
+    return count_col(pd.concat([df0, df1]), ['Class', 'Archetype']).nlargest(n)
 
 
 def best_decks_n(df, n=10, mincount=10):
