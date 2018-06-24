@@ -22,7 +22,7 @@
 20,6/4/2018 18:01:21,Bloodcraft,Neutral,Havencraft,Lion Crystal,0
 21,6/4/2018 18:01:30,Portalcraft,Control,Forestcraft,Aggro,1
 22,6/4/2018 18:11:07,Forestcraft,Aggro,Runecraft,Spellboost,1
-23,6/4/2018 18:19:49,Havencraft,Tenko,Swordcraft,Aggro Sword,0
+23,6/4/2018 18:19:49,Havencraft,Tenko,Swordcraft,Aggro,0
 24,6/4/2018 18:22:21,Havencraft,Tenko,Swordcraft,Midrange,1
 25,6/4/2018 18:46:13,Dragoncraft,PDK,Forestcraft,Neutral,0
 26,6/4/2018 18:50:35,Havencraft,Summit,Portalcraft,,1
@@ -43,7 +43,7 @@
 41,6/4/2018 19:53:49,Swordcraft,Midrange,Dragoncraft,Ramp,1
 42,6/4/2018 19:54:34,Bloodcraft,Vengeance,Swordcraft,Midrange,0
 43,6/4/2018 19:55:22,Dragoncraft,PDK,Dragoncraft,Lindworm,1
-44,6/4/2018 20:15:32,Dragoncraft,PDK,Bloodcraft,Netural,1
+44,6/4/2018 20:15:32,Dragoncraft,PDK,Bloodcraft,Neutral,1
 45,6/4/2018 20:17:48,Portalcraft,Artifact,Havencraft,Lion Crystal,1
 46,6/4/2018 20:38:30,Shadowcraft,Midrange,Dragoncraft,PDK,1
 47,6/4/2018 21:03:00,Bloodcraft,Neutral,Havencraft,,1
@@ -102,8 +102,8 @@
 100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Portalcraft,Artifact,1
 101,6/6/2018 13:44:17,Havencraft,Tenko,Dragoncraft,,0
 102,6/6/2018 14:08:40,Runecraft,Faust,Shadowcraft,Midrange,1
-103,6/6/2018 14:10:23,Dragoncraft,Lindworm,Forestcraft,Agroo,0
-104,6/6/2018 14:26:08,Bloodcraft,Vengeance,Havencraft,Neutral ,1
+103,6/6/2018 14:10:23,Dragoncraft,Lindworm,Forestcraft,Aggro,0
+104,6/6/2018 14:26:08,Bloodcraft,Vengeance,Havencraft,Neutral,1
 105,6/6/2018 14:30:16,Swordcraft,Support Cannon,Forestcraft,Control,1
 106,6/6/2018 14:44:55,Havencraft,Summit,Dragoncraft,Lindworm,1
 107,6/6/2018 14:48:53,Bloodcraft,Vengeance,Portalcraft,Midrange,1
@@ -125,13 +125,13 @@
 123,6/6/2018 21:57:46,Swordcraft,Aggro,Dragoncraft,,1
 124,6/6/2018 23:44:56,Forestcraft,Neutral,Forestcraft,Aggro,0
 125,6/6/2018 23:49:44,Dragoncraft,PDK,Swordcraft,Midrange,1
-126,6/7/2018 0:57:00,Forestcraft,Forest,Bloodcraft,Vengeance,1
+126,6/7/2018 0:57:00,Forestcraft,Aggro,Bloodcraft,Vengeance,1
 127,6/7/2018 1:48:17,Forestcraft,Neutral,Swordcraft,Midrange,1
-128,6/7/2018 1:50:42,Runecraft,Spellboost,Bloodcraft,Vengeance ,1
+128,6/7/2018 1:50:42,Runecraft,Spellboost,Bloodcraft,Vengeance,1
 129,6/7/2018 2:23:50,Havencraft,Amulet,Portalcraft,Artifact,0
 130,6/7/2018 2:50:08,Runecraft,Ginger,Bloodcraft,Aggro,1
 131,6/7/2018 3:01:56,Runecraft,Ginger,Forestcraft,Aggro,1
-132,6/7/2018 3:22:59,Portalcraft,Puppets,Forestcraft,Aggro ,0
+132,6/7/2018 3:22:59,Portalcraft,Puppet,Forestcraft,Aggro,0
 133,6/7/2018 4:14:25,Havencraft,Tenko,Forestcraft,Neutral,0
 134,6/7/2018 4:15:44,Portalcraft,Midrange,Swordcraft,Midrange,1
 135,6/7/2018 4:38:53,Bloodcraft,Aggro,Portalcraft,Artifact,1
@@ -139,7 +139,7 @@
 137,6/7/2018 5:02:16,Portalcraft,Hybrid,Havencraft,Summit,1
 138,6/7/2018 5:11:39,Forestcraft,Aggro,Swordcraft,Midrange,1
 139,6/7/2018 5:14:04,Forestcraft,Control,Swordcraft,Aggro,0
-140,6/7/2018 5:53:45,Forestcraft,Tempo,Swordcraft,Midrange,1
+140,6/7/2018 5:53:45,Forestcraft,Control,Swordcraft,Midrange,1
 141,6/7/2018 5:55:10,Dragoncraft,PDK,Swordcraft,Aggro,1
 142,6/7/2018 5:56:20,Bloodcraft,Vengeance,Dragoncraft,PDK,1
 143,6/7/2018 6:15:10,Dragoncraft,,Havencraft,,1
@@ -161,7 +161,7 @@
 159,6/8/2018 0:48:11,Dragoncraft,PDK,Shadowcraft,Midrange,0
 160,6/8/2018 1:17:39,Forestcraft,Aggro,Shadowcraft,Reanimate,0
 161,6/8/2018 8:55:55,Forestcraft,Aggro,Forestcraft,Aggro,0
-162,6/8/2018 10:26:21,Forestcraft,Aggro,Dragoncraft,PDK Dragon,1
+162,6/8/2018 10:26:21,Forestcraft,Aggro,Dragoncraft,PDK,1
 163,6/8/2018 12:18:17,Dragoncraft,Jabberwock,Bloodcraft,Vengeance,0
 164,6/8/2018 12:36:29,Shadowcraft,Midrange,Dragoncraft,PDK,1
 0,6/4/2018 16:42:49,Portalcraft,Artifact,Havencraft,Summit,1
@@ -173,8 +173,8 @@
 6,6/4/2018 16:59:26,Havencraft,Tenko,Runecraft,Ginger,0
 7,6/4/2018 17:00:57,Runecraft,Ginger,Dragoncraft,PDK,1
 8,6/4/2018 17:09:46,Forestcraft,Aggro,Dragoncraft,Lindworm,1
-9,6/4/2018 17:11:55,Forestcraft,Aggro,Forestcraft,Buff,1
-10,6/4/2018 17:25:36,Portalcraft,Midrange,Bloodcraft,Vegenance,1
+9,6/4/2018 17:11:55,Forestcraft,Aggro,Forestcraft,Aggro,1
+10,6/4/2018 17:25:36,Portalcraft,Midrange,Bloodcraft,Vengeance,1
 11,6/4/2018 17:29:42,Bloodcraft,Vengeance,Dragoncraft,Ramp,0
 12,6/4/2018 17:32:34,Swordcraft,Support Cannon,Swordcraft,Midrange,1
 13,6/4/2018 17:34:42,Swordcraft,Support Cannon,Dragoncraft,Ramp,0
@@ -199,7 +199,7 @@
 32,6/4/2018 19:15:14,Runecraft,,Runecraft,Spellboost,0
 33,6/4/2018 19:27:31,Runecraft,Silver Blade,Bloodcraft,Vengeance,1
 34,6/4/2018 19:29:48,Bloodcraft,Vengeance,Runecraft,Ginger,0
-35,6/4/2018 19:33:31,Forestcraft,Neutral,Swordcraft,Tempo,1
+35,6/4/2018 19:33:31,Forestcraft,Neutral,Swordcraft,Midrange,1
 36,6/4/2018 19:34:20,Havencraft,Tenko,Forestcraft,Aggro,1
 37,6/4/2018 19:34:39,Havencraft,Tenko,Shadowcraft,Midrange,1
 38,6/4/2018 19:42:45,Swordcraft,Midrange,Runecraft,Dirt,1
@@ -208,9 +208,9 @@
 41,6/4/2018 19:53:49,Swordcraft,Midrange,Dragoncraft,Lindworm,0
 42,6/4/2018 19:54:34,Bloodcraft,Vengeance,Havencraft,Summit,1
 43,6/4/2018 19:55:22,Dragoncraft,PDK,Bloodcraft,Neutral,1
-44,6/4/2018 20:15:32,Dragoncraft,PDK,Portalcraft,Artifact ,1
+44,6/4/2018 20:15:32,Dragoncraft,PDK,Portalcraft,Artifact,1
 45,6/4/2018 20:17:48,Portalcraft,Artifact,Swordcraft,Midrange,1
-46,6/4/2018 20:38:30,Shadowcraft,Midrange,Havencraft,Temple,0
+46,6/4/2018 20:38:30,Shadowcraft,Midrange,Havencraft,Summit,0
 47,6/4/2018 21:03:00,Bloodcraft,Neutral,Dragoncraft,PDK,0
 48,6/4/2018 21:04:57,Runecraft,Spellboost,Runecraft,Ginger,1
 49,6/4/2018 21:18:29,Swordcraft,Midrange,Forestcraft,Aggro,1
@@ -228,8 +228,8 @@
 61,6/5/2018 1:46:39,Shadowcraft,Midrange,Forestcraft,Aggro,1
 62,6/5/2018 2:06:41,Portalcraft,Midrange,Dragoncraft,PDK,1
 63,6/5/2018 2:08:36,Forestcraft,Midrange,Bloodcraft,Vengeance,1
-64,6/5/2018 2:47:03,Swordcraft,Support Cannon,Bloodcraft,Vengeance ,0
-65,6/5/2018 2:53:09,Forestcraft,Midrange,Bloodcraft,Vengeance ,1
+64,6/5/2018 2:47:03,Swordcraft,Support Cannon,Bloodcraft,Vengeance,0
+65,6/5/2018 2:53:09,Forestcraft,Midrange,Bloodcraft,Vengeance,1
 66,6/5/2018 3:09:43,Forestcraft,Midrange,Shadowcraft,Reanimate,1
 67,6/5/2018 3:19:00,Runecraft,Spellboost,Portalcraft,Artifact,1
 68,6/5/2018 4:11:37,Dragoncraft,PDK,Runecraft,Spellboost,1
@@ -244,13 +244,13 @@
 77,6/5/2018 6:47:44,Forestcraft,Aggro,Forestcraft,Aggro,1
 78,6/5/2018 6:54:54,Havencraft,Tenko,Portalcraft,Midrange,1
 79,6/5/2018 6:56:46,Portalcraft,Artifact,Shadowcraft,Midrange,0
-80,6/5/2018 7:03:49,Forestcraft,Midrange,Runecraft,Burn,0
+80,6/5/2018 7:03:49,Forestcraft,Midrange,Runecraft,Dirt,0
 81,6/5/2018 7:06:39,Bloodcraft,Jormungand,Runecraft,Spellboost,1
 82,6/5/2018 7:24:49,Runecraft,Ginger,Forestcraft,Midrange,0
 83,6/5/2018 7:58:08,Bloodcraft,Control,Dragoncraft,Lindworm,1
 84,6/5/2018 8:25:32,Forestcraft,Aggro,Havencraft,Tenko,1
 85,6/5/2018 8:29:38,Portalcraft,Artifact,Forestcraft,Control,1
-86,6/5/2018 8:39:07,Dragoncraft,Lindworm,Portalcraft,Midrange ,1
+86,6/5/2018 8:39:07,Dragoncraft,Lindworm,Portalcraft,Midrange,1
 87,6/5/2018 9:06:07,Bloodcraft,Vengeance,Swordcraft,Midrange,1
 88,6/5/2018 9:14:10,Havencraft,Heresy,Dragoncraft,PDK,1
 89,6/5/2018 9:34:42,Portalcraft,Artifact,Dragoncraft,PDK,0
@@ -290,13 +290,13 @@
 123,6/6/2018 21:57:46,Swordcraft,Aggro,Dragoncraft,,1
 124,6/6/2018 23:44:56,Forestcraft,Neutral,Forestcraft,Aggro,1
 125,6/6/2018 23:49:44,Dragoncraft,PDK,Swordcraft,Midrange,1
-126,6/7/2018 0:57:00,Forestcraft,Forest,Shadowcraft,Neutral,1
+126,6/7/2018 0:57:00,Forestcraft,Aggro,Shadowcraft,Neutral,1
 127,6/7/2018 1:48:17,Forestcraft,Neutral,Forestcraft,Aggro,0
 128,6/7/2018 1:50:42,Runecraft,Spellboost,Havencraft,Tenko,1
 129,6/7/2018 2:23:50,Havencraft,Amulet,Shadowcraft,Midrange,1
 130,6/7/2018 2:50:08,Runecraft,Ginger,Forestcraft,Aggro,1
 131,6/7/2018 3:01:56,Runecraft,Ginger,Forestcraft,Aggro,1
-132,6/7/2018 3:22:59,Portalcraft,Puppets,Dragoncraft,PDK,0
+132,6/7/2018 3:22:59,Portalcraft,Puppet,Dragoncraft,PDK,0
 133,6/7/2018 4:14:25,Havencraft,Tenko,Havencraft,Tenko,0
 134,6/7/2018 4:15:44,Portalcraft,Midrange,Shadowcraft,Midrange,0
 135,6/7/2018 4:38:53,Bloodcraft,Aggro,Shadowcraft,Neutral,0
@@ -304,7 +304,7 @@
 137,6/7/2018 5:02:16,Portalcraft,Hybrid,Swordcraft,Midrange,1
 138,6/7/2018 5:11:39,Forestcraft,Aggro,Havencraft,Tenko,1
 139,6/7/2018 5:14:04,Forestcraft,Control,Dragoncraft,PDK,1
-140,6/7/2018 5:53:45,Forestcraft,Tempo,Shadowcraft,Reanimate,1
+140,6/7/2018 5:53:45,Forestcraft,Control,Shadowcraft,Reanimate,1
 141,6/7/2018 5:55:10,Dragoncraft,PDK,Havencraft,Tenko,1
 142,6/7/2018 5:56:20,Bloodcraft,Vengeance,Dragoncraft,Ramp,1
 143,6/7/2018 6:15:10,Dragoncraft,,Dragoncraft,Ramp,1
@@ -312,7 +312,7 @@
 145,6/7/2018 7:17:29,Bloodcraft,Vengeance,Forestcraft,Neutral,0
 146,6/7/2018 7:45:34,Runecraft,Spellboost,Shadowcraft,Reanimate,1
 147,6/7/2018 7:48:03,Runecraft,Spellboost,Runecraft,Dirt,1
-148,6/7/2018 7:48:47,Bloodcraft,Neutral,Portalcraft,Artifact ,1
+148,6/7/2018 7:48:47,Bloodcraft,Neutral,Portalcraft,Artifact,1
 149,6/7/2018 8:49:43,Dragoncraft,Jabberwock,Forestcraft,Aggro,1
 150,6/7/2018 8:53:32,Portalcraft,Artifact,Bloodcraft,Jormungand,1
 151,6/7/2018 9:29:05,Forestcraft,Aggro,Bloodcraft,Vengeance,1
@@ -380,7 +380,7 @@
 48,6/4/2018 21:04:57,Runecraft,Spellboost,Dragoncraft,Lindworm,1
 49,6/4/2018 21:18:29,Swordcraft,Midrange,Forestcraft,Aggro,1
 50,6/4/2018 21:27:46,Dragoncraft,Lindworm,Havencraft,Tenko,1
-51,6/4/2018 21:42:37,Portalcraft,Artifact,Swordcraft,Midrange ,1
+51,6/4/2018 21:42:37,Portalcraft,Artifact,Swordcraft,Midrange,1
 52,6/4/2018 22:04:31,Bloodcraft,Vengeance,Bloodcraft,Vengeance,0
 53,6/4/2018 22:19:31,Havencraft,Summit,Forestcraft,Control,1
 54,6/4/2018 22:49:28,Forestcraft,Aggro,Forestcraft,Aggro,1
@@ -398,7 +398,7 @@
 66,6/5/2018 3:09:43,Forestcraft,Midrange,Bloodcraft,Aggro,0
 67,6/5/2018 3:19:00,Runecraft,Spellboost,Forestcraft,Midrange,1
 68,6/5/2018 4:11:37,Dragoncraft,PDK,Havencraft,Tenko,1
-69,6/5/2018 4:22:42,Forestcraft,Aggro,Forestcraft,Forest,1
+69,6/5/2018 4:22:42,Forestcraft,Aggro,Forestcraft,Aggro,1
 70,6/5/2018 4:50:25,Portalcraft,Artifact,Forestcraft,,1
 71,6/5/2018 5:14:48,Forestcraft,Aggro,Dragoncraft,PDK,1
 72,6/5/2018 5:23:36,Swordcraft,Midrange,Runecraft,Mysteria,1
@@ -428,7 +428,7 @@
 96,6/5/2018 19:38:52,Dragoncraft,,Swordcraft,,1
 97,6/5/2018 20:09:23,Bloodcraft,Vengeance,Portalcraft,Midrange,1
 98,6/6/2018 6:39:15,Portalcraft,Midrange,Havencraft,Summit,0
-99,6/6/2018 13:14:06,Havencraft,Summit,Forestcraft,Tempo,1
+99,6/6/2018 13:14:06,Havencraft,Summit,Forestcraft,Control,1
 100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Dragoncraft,Lindworm,0
 101,6/6/2018 13:44:17,Havencraft,Tenko,Forestcraft,,1
 102,6/6/2018 14:08:40,Runecraft,Faust,Havencraft,Summit,1
@@ -455,13 +455,13 @@
 123,6/6/2018 21:57:46,Swordcraft,Aggro,Runecraft,,1
 124,6/6/2018 23:44:56,Forestcraft,Neutral,Shadowcraft,Hinterland,1
 125,6/6/2018 23:49:44,Dragoncraft,PDK,Swordcraft,Midrange,1
-126,6/7/2018 0:57:00,Forestcraft,Forest,Dragoncraft,Lindworm,1
-127,6/7/2018 1:48:17,Forestcraft,Neutral,Bloodcraft,Vengeance ,1
+126,6/7/2018 0:57:00,Forestcraft,Aggro,Dragoncraft,Lindworm,1
+127,6/7/2018 1:48:17,Forestcraft,Neutral,Bloodcraft,Vengeance,1
 128,6/7/2018 1:50:42,Runecraft,Spellboost,Runecraft,,1
 129,6/7/2018 2:23:50,Havencraft,Amulet,Portalcraft,Artifact,1
 130,6/7/2018 2:50:08,Runecraft,Ginger,Forestcraft,Aggro,1
 131,6/7/2018 3:01:56,Runecraft,Ginger,Havencraft,Tenko,1
-132,6/7/2018 3:22:59,Portalcraft,Puppets,Dragoncraft,PDK,0
+132,6/7/2018 3:22:59,Portalcraft,Puppet,Dragoncraft,PDK,0
 133,6/7/2018 4:14:25,Havencraft,Tenko,Runecraft,,1
 134,6/7/2018 4:15:44,Portalcraft,Midrange,Portalcraft,Puppet,1
 135,6/7/2018 4:38:53,Bloodcraft,Aggro,Havencraft,,1
@@ -469,7 +469,7 @@
 137,6/7/2018 5:02:16,Portalcraft,Hybrid,Forestcraft,Neutral,0
 138,6/7/2018 5:11:39,Forestcraft,Aggro,Dragoncraft,,1
 139,6/7/2018 5:14:04,Forestcraft,Control,Portalcraft,Artifact,1
-140,6/7/2018 5:53:45,Forestcraft,Tempo,Runecraft,Spellboost,0
+140,6/7/2018 5:53:45,Forestcraft,Control,Runecraft,Spellboost,0
 141,6/7/2018 5:55:10,Dragoncraft,PDK,Dragoncraft,Ramp,1
 142,6/7/2018 5:56:20,Bloodcraft,Vengeance,Dragoncraft,PDK,1
 143,6/7/2018 6:15:10,Dragoncraft,,Swordcraft,Midrange,1
@@ -497,14 +497,14 @@
 0,6/4/2018 16:42:49,Portalcraft,Artifact,Portalcraft,Puppet,1
 1,6/4/2018 16:49:25,Runecraft,Spellboost,Dragoncraft,Ramp,0
 2,6/4/2018 16:50:22,Bloodcraft,Neutral,Runecraft,Spellboost,1
-3,6/4/2018 16:52:20,Dragoncraft,PDK,Havencraft,Tenko ,1
+3,6/4/2018 16:52:20,Dragoncraft,PDK,Havencraft,Tenko,1
 4,6/4/2018 16:52:57,Portalcraft,Artifact,Dragoncraft,PDK,1
 5,6/4/2018 16:58:46,Swordcraft,Midrange,Bloodcraft,Vengeance,0
 6,6/4/2018 16:59:26,Havencraft,Tenko,Runecraft,Dirt,1
 7,6/4/2018 17:00:57,Runecraft,Ginger,Forestcraft,Aggro,1
 8,6/4/2018 17:09:46,Forestcraft,Aggro,Forestcraft,Midrange,0
 9,6/4/2018 17:11:55,Forestcraft,Aggro,Runecraft,Spellboost,1
-10,6/4/2018 17:25:36,Portalcraft,Midrange,Havencraft,Tenko ,0
+10,6/4/2018 17:25:36,Portalcraft,Midrange,Havencraft,Tenko,0
 11,6/4/2018 17:29:42,Bloodcraft,Vengeance,Swordcraft,Midrange,1
 12,6/4/2018 17:32:34,Swordcraft,Support Cannon,Shadowcraft,Reanimate,0
 13,6/4/2018 17:34:42,Swordcraft,Support Cannon,Forestcraft,Aggro,0
@@ -533,17 +533,17 @@
 36,6/4/2018 19:34:20,Havencraft,Tenko,Shadowcraft,Midrange,1
 37,6/4/2018 19:34:39,Havencraft,Tenko,Swordcraft,Midrange,0
 38,6/4/2018 19:42:45,Swordcraft,Midrange,Dragoncraft,,0
-39,6/4/2018 19:53:15,Forestcraft,Neutral,Havencraft,Control ,1
+39,6/4/2018 19:53:15,Forestcraft,Neutral,Havencraft,Control,1
 40,6/4/2018 19:53:15,Swordcraft,Support Cannon,Dragoncraft,Ramp,1
 41,6/4/2018 19:53:49,Swordcraft,Midrange,Swordcraft,Support Cannon,1
 42,6/4/2018 19:54:34,Bloodcraft,Vengeance,Forestcraft,Aggro,1
 43,6/4/2018 19:55:22,Dragoncraft,PDK,Portalcraft,Puppet,1
-44,6/4/2018 20:15:32,Dragoncraft,PDK,Dragoncraft,Lindworm ,1
+44,6/4/2018 20:15:32,Dragoncraft,PDK,Dragoncraft,Lindworm,1
 45,6/4/2018 20:17:48,Portalcraft,Artifact,Portalcraft,Puppet,1
 46,6/4/2018 20:38:30,Shadowcraft,Midrange,Forestcraft,Aggro,1
 47,6/4/2018 21:03:00,Bloodcraft,Neutral,Portalcraft,Artifact,1
 48,6/4/2018 21:04:57,Runecraft,Spellboost,Portalcraft,Artifact,1
-49,6/4/2018 21:18:29,Swordcraft,Midrange,Forestcraft,Control ,0
+49,6/4/2018 21:18:29,Swordcraft,Midrange,Forestcraft,Control,0
 50,6/4/2018 21:27:46,Dragoncraft,Lindworm,Portalcraft,Artifact,1
 51,6/4/2018 21:42:37,Portalcraft,Artifact,Forestcraft,Aggro,1
 52,6/4/2018 22:04:31,Bloodcraft,Vengeance,Runecraft,Spellboost,1
@@ -592,9 +592,9 @@
 95,6/5/2018 18:34:41,Forestcraft,Aggro,Forestcraft,Control,0
 96,6/5/2018 19:38:52,Dragoncraft,,Bloodcraft,,1
 97,6/5/2018 20:09:23,Bloodcraft,Vengeance,Havencraft,Tenko,1
-98,6/6/2018 6:39:15,Portalcraft,Midrange,Portalcraft,Hybrid ,1
+98,6/6/2018 6:39:15,Portalcraft,Midrange,Portalcraft,Hybrid,1
 99,6/6/2018 13:14:06,Havencraft,Summit,Swordcraft,Midrange,1
-100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Havencraft,Temple,0
+100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Havencraft,Summit,0
 101,6/6/2018 13:44:17,Havencraft,Tenko,Swordcraft,,0
 102,6/6/2018 14:08:40,Runecraft,Faust,Havencraft,Summit,0
 103,6/6/2018 14:10:23,Dragoncraft,Lindworm,Runecraft,Ginger,1
@@ -620,13 +620,13 @@
 123,6/6/2018 21:57:46,Swordcraft,Aggro,Runecraft,,1
 124,6/6/2018 23:44:56,Forestcraft,Neutral,Shadowcraft,Midrange,1
 125,6/6/2018 23:49:44,Dragoncraft,PDK,Swordcraft,Midrange,0
-126,6/7/2018 0:57:00,Forestcraft,Forest,Dragoncraft,PDK,0
+126,6/7/2018 0:57:00,Forestcraft,Aggro,Dragoncraft,PDK,0
 127,6/7/2018 1:48:17,Forestcraft,Neutral,Runecraft,Dirt,1
 128,6/7/2018 1:50:42,Runecraft,Spellboost,Runecraft,Spellboost,1
 129,6/7/2018 2:23:50,Havencraft,Amulet,Forestcraft,Neutral,1
 130,6/7/2018 2:50:08,Runecraft,Ginger,Bloodcraft,Aggro,1
 131,6/7/2018 3:01:56,Runecraft,Ginger,Shadowcraft,Midrange,1
-132,6/7/2018 3:22:59,Portalcraft,Puppets,Forestcraft,Aggro ,1
+132,6/7/2018 3:22:59,Portalcraft,Puppet,Forestcraft,Aggro,1
 133,6/7/2018 4:14:25,Havencraft,Tenko,Dragoncraft,PDK,0
 134,6/7/2018 4:15:44,Portalcraft,Midrange,Dragoncraft,,1
 135,6/7/2018 4:38:53,Bloodcraft,Aggro,Forestcraft,Aggro,0
@@ -634,7 +634,7 @@
 137,6/7/2018 5:02:16,Portalcraft,Hybrid,Portalcraft,Puppet,1
 138,6/7/2018 5:11:39,Forestcraft,Aggro,Runecraft,,1
 139,6/7/2018 5:14:04,Forestcraft,Control,Bloodcraft,Vengeance,1
-140,6/7/2018 5:53:45,Forestcraft,Tempo,Forestcraft,Aggro,1
+140,6/7/2018 5:53:45,Forestcraft,Control,Forestcraft,Aggro,1
 141,6/7/2018 5:55:10,Dragoncraft,PDK,Shadowcraft,Reanimate,1
 142,6/7/2018 5:56:20,Bloodcraft,Vengeance,Dragoncraft,PDK,1
 143,6/7/2018 6:15:10,Dragoncraft,,Runecraft,Neutral,1
@@ -670,7 +670,7 @@
 8,6/4/2018 17:09:46,Forestcraft,Aggro,Forestcraft,Aggro,1
 9,6/4/2018 17:11:55,Forestcraft,Aggro,Forestcraft,Neutral,1
 10,6/4/2018 17:25:36,Portalcraft,Midrange,Dragoncraft,Lindworm,1
-11,6/4/2018 17:29:42,Bloodcraft,Vengeance,Portalcraft,PDK,1
+11,6/4/2018 17:29:42,Bloodcraft,Vengeance,Portalcraft,Puppet,1
 12,6/4/2018 17:32:34,Swordcraft,Support Cannon,Bloodcraft,Vengeance,0
 13,6/4/2018 17:34:42,Swordcraft,Support Cannon,Shadowcraft,Midrange,1
 14,6/4/2018 17:34:43,Runecraft,Ginger,Swordcraft,Midrange,1
@@ -694,7 +694,7 @@
 32,6/4/2018 19:15:14,Runecraft,,Runecraft,,0
 33,6/4/2018 19:27:31,Runecraft,Silver Blade,Dragoncraft,PDK,1
 34,6/4/2018 19:29:48,Bloodcraft,Vengeance,Havencraft,Summit,1
-35,6/4/2018 19:33:31,Forestcraft,Neutral,Bloodcraft,Tempo,1
+35,6/4/2018 19:33:31,Forestcraft,Neutral,Bloodcraft,Control,1
 36,6/4/2018 19:34:20,Havencraft,Tenko,Havencraft,Summit,1
 37,6/4/2018 19:34:39,Havencraft,Tenko,Portalcraft,Hybrid,1
 38,6/4/2018 19:42:45,Swordcraft,Midrange,Runecraft,,1
@@ -703,7 +703,7 @@
 41,6/4/2018 19:53:49,Swordcraft,Midrange,Forestcraft,Aggro,1
 42,6/4/2018 19:54:34,Bloodcraft,Vengeance,Shadowcraft,,1
 43,6/4/2018 19:55:22,Dragoncraft,PDK,Runecraft,Spellboost,1
-44,6/4/2018 20:15:32,Dragoncraft,PDK,Bloodcraft,Control ,1
+44,6/4/2018 20:15:32,Dragoncraft,PDK,Bloodcraft,Control,1
 45,6/4/2018 20:17:48,Portalcraft,Artifact,Portalcraft,Artifact,1
 46,6/4/2018 20:38:30,Shadowcraft,Midrange,Forestcraft,Neutral,1
 47,6/4/2018 21:03:00,Bloodcraft,Neutral,Shadowcraft,Midrange,0
@@ -738,7 +738,7 @@
 76,6/5/2018 6:42:06,Havencraft,Summit,Shadowcraft,Midrange,1
 77,6/5/2018 6:47:44,Forestcraft,Aggro,Forestcraft,Aggro,0
 78,6/5/2018 6:54:54,Havencraft,Tenko,Runecraft,Ginger,0
-79,6/5/2018 6:56:46,Portalcraft,Artifact,Bloodcraft,Vengeance ,1
+79,6/5/2018 6:56:46,Portalcraft,Artifact,Bloodcraft,Vengeance,1
 80,6/5/2018 7:03:49,Forestcraft,Midrange,Havencraft,Summit,1
 81,6/5/2018 7:06:39,Bloodcraft,Jormungand,Havencraft,Summit,1
 82,6/5/2018 7:24:49,Runecraft,Ginger,Swordcraft,Midrange,1
@@ -759,7 +759,7 @@
 97,6/5/2018 20:09:23,Bloodcraft,Vengeance,Dragoncraft,PDK,1
 98,6/6/2018 6:39:15,Portalcraft,Midrange,Bloodcraft,Vengeance,1
 99,6/6/2018 13:14:06,Havencraft,Summit,Dragoncraft,Ramp,1
-100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Havencraft,Temple,0
+100,6/6/2018 13:17:23,Dragoncraft,Jabberwock,Havencraft,Summit,0
 101,6/6/2018 13:44:17,Havencraft,Tenko,Swordcraft,,1
 102,6/6/2018 14:08:40,Runecraft,Faust,Forestcraft,Aggro,1
 103,6/6/2018 14:10:23,Dragoncraft,Lindworm,Havencraft,Tenko,1
@@ -785,13 +785,13 @@
 123,6/6/2018 21:57:46,Swordcraft,Aggro,Forestcraft,,0
 124,6/6/2018 23:44:56,Forestcraft,Neutral,Swordcraft,Support Cannon,1
 125,6/6/2018 23:49:44,Dragoncraft,PDK,Bloodcraft,Vengeance,1
-126,6/7/2018 0:57:00,Forestcraft,Forest,Dragoncraft,Lindworm,1
+126,6/7/2018 0:57:00,Forestcraft,Aggro,Dragoncraft,Lindworm,1
 127,6/7/2018 1:48:17,Forestcraft,Neutral,Forestcraft,Neutral,0
 128,6/7/2018 1:50:42,Runecraft,Spellboost,Forestcraft,Aggro,0
 129,6/7/2018 2:23:50,Havencraft,Amulet,Bloodcraft,Vengeance,1
 130,6/7/2018 2:50:08,Runecraft,Ginger,Bloodcraft,Aggro,1
 131,6/7/2018 3:01:56,Runecraft,Ginger,Dragoncraft,Lindworm,1
-132,6/7/2018 3:22:59,Portalcraft,Puppets,Portalcraft,Artifacts,1
+132,6/7/2018 3:22:59,Portalcraft,Puppet,Portalcraft,Artifact,1
 133,6/7/2018 4:14:25,Havencraft,Tenko,Forestcraft,Aggro,1
 134,6/7/2018 4:15:44,Portalcraft,Midrange,Havencraft,Tenko,1
 135,6/7/2018 4:38:53,Bloodcraft,Aggro,Bloodcraft,Vengeance,0
@@ -799,7 +799,7 @@
 137,6/7/2018 5:02:16,Portalcraft,Hybrid,Dragoncraft,Lindworm,1
 138,6/7/2018 5:11:39,Forestcraft,Aggro,Swordcraft,Midrange,1
 139,6/7/2018 5:14:04,Forestcraft,Control,Forestcraft,Aggro,1
-140,6/7/2018 5:53:45,Forestcraft,Tempo,Havencraft,Tenko,1
+140,6/7/2018 5:53:45,Forestcraft,Control,Havencraft,Tenko,1
 141,6/7/2018 5:55:10,Dragoncraft,PDK,Swordcraft,Midrange,1
 142,6/7/2018 5:56:20,Bloodcraft,Vengeance,Runecraft,Dirt,0
 143,6/7/2018 6:15:10,Dragoncraft,,Havencraft,Summit,0
@@ -819,7 +819,7 @@
 157,6/7/2018 19:43:30,Havencraft,Tenko,Portalcraft,Artifact,1
 158,6/7/2018 23:59:15,Bloodcraft,Jormungand,Havencraft,Summit,1
 159,6/8/2018 0:48:11,Dragoncraft,PDK,Havencraft,Lion Crystal,1
-160,6/8/2018 1:17:39,Forestcraft,Aggro,Dragoncraft,Lindworm ,1
+160,6/8/2018 1:17:39,Forestcraft,Aggro,Dragoncraft,Lindworm,1
 161,6/8/2018 8:55:55,Forestcraft,Aggro,Havencraft,Tut,1
 162,6/8/2018 10:26:21,Forestcraft,Aggro,Dragoncraft,,1
 163,6/8/2018 12:18:17,Dragoncraft,Jabberwock,Dragoncraft,Lindworm,0

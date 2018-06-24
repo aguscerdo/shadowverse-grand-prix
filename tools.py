@@ -19,11 +19,18 @@ def w_df(df, path):
 
 
 def count_col(df, col): # TODO return one col instead of 2
-    return df.groupby(col)[col].count()
+    l = 1
+    if isinstance(col, list):
+        l = len(col)
+    df2 = df.groupby(col)[col].count()
+    if l > 1:
+        return df2.iloc[:, 0]
+    return df2
 
 
-def mean_col(df, group, col):
-    return df.groupby(group).mean()[col]
+
+def mean_col(df, group, col):   # TODO
+    return df.groupby(group)[col].mean()
 
 def phead(df):
     print(df.head)
@@ -48,34 +55,68 @@ def verticalize(path_csv_out, df=None, force=False):
     return vertical
 
 
+def stack_match(df, c=None):
+    if c:
+        dfc0 = df[(df['Class'] == c) &(df['Class_o'] != c)]
+        dfc1 = df[(df['Class_o'] == c) & (df['Class'] != c)].copy()
+        dfc1[['Class', 'Archetype', 'Class_o', 'Archetype_o']] = dfc1[['Class_o', 'Archetype_o', 'Class', 'Archetype']]
+        dfc1.loc[:, 'Result'] = dfc1.loc[:,'Result'].apply(lambda x: not x)
+
+        return pd.concat([dfc0, dfc1])
+    else:
+        dfc1 = df.copy()
+        dfc1[['Class', 'Archetype', 'Class_o', 'Archetype_o']] = dfc1[['Class_o', 'Archetype_o', 'Class', 'Archetype']]
+        dfc1.loc[:, 'Result'] = dfc1.loc[:, 'Result'].apply(lambda x: not x)
+        return pd.concat([df, dfc1])
+
+
+def most_popular_n(df, n=10):
+    df0 = stack_match(df)
+    return count_col(df0, ['Class', 'Archetype']).nlargest(n)
+
+
+def best_decks_n(df, n=10, mincount=10):
+    df0 = stack_match(df)
+    df0 = df0.groupby(['Class', 'Archetype']).agg({'Result':'mean', 'Archetype':'size'}).reset_index(level="count")
+    df0 = df0[df0['count'] > mincount]
+    phead(df0)
+    exit(0)
+    return mean_col(df0, ['Class', 'Archetype'], 'Result').nlargest(n)
 
 
 # ------------------ Plots ------------------ #
-def plot_pie(df):
-    return df.plot.pie(autopct='%.2f', figsize=(5,5))   #
+def plot_pie(df, title, filename, size=(6,6)):
+    df.plot.pie(autopct='%.2f', figsize=size, title=title)#, labels=['' for _ in df])
+    plt.xlabel('')
+    plt.ylabel('')
+
+    pplot(filename)
 
 
-def plot_scatter(df, x, y, c=None):
+def plot_scatter(df, x, y,title, filename, c=None):
     if c:
-        p = df.plot.scatter(x=x, y=y, c=c)
+        df.plot.scatter(x=x, y=y, c=c, title=title)
     else:
-        p = df.plot.scatter(x=x, y=y)
+        df.plot.scatter(x=x, y=y, title=title)
+    pplot(filename)
 
-    return p
 
-def plot_bar(df, stack=False, h=False):
+def plot_bar(df, title, filename, groupby=None, stack=True, h=False):
+    if groupby is not None:
+        df = df.unstack(groupby)
     if h:
-        p = df.plot.barh(stack=stack)
+        p = df.plot(kind='barh', stacked=stack, title=title)
     else:
-        p = df.plot.bar(stack=stack)
-    return p
+        p = df.plot(kind='bar', stacked=stack, title=title)
+
+    pplot(filename)
 
 
-def show_plots(plot, title):
-    plot.title(title)
-    plot.show()
+def pplot(filename):
+    plt.tight_layout()
+    plt.savefig("plots/{}.png".format(filename), bbox_inches='tight')
+    plt.show(bbox_inches='tight')
 
 
-def save_plot(plot, title, loc="plots"):
-    plot.title(title)
-    plot.savefig("{}/{}.png".format(loc, title))
+
+
