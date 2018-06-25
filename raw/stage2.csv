@@ -1,4 +1,4 @@
-Timestamp,Group,Class Used,Archetype,Rotation Rank,Class1,Archetype1,Result1,Class2,Archetype2,Result2,Class3,Archetype3,Result3,Class4,Archetype4,Result4,Class5,Archetype5,Result5,Rupies,P_TOTG,P_WD,P_SFL,P_CHR,P_DBNE,P_NEXT,SEERS,Wins
+Timestamp,Group,Class,Archetype,Rank,Class1,Archetype1,Result1,Class2,Archetype2,Result2,Class3,Archetype3,Result3,Class4,Archetype4,Result4,Class5,Archetype5,Result5,Rupies,P_TOTG,P_WD,P_SFL,P_CHR,P_DBNE,P_NEXT,SEERS,Wins
 6/8/2018 14:29:52,A,Bloodcraft,Vengeance,Grand Master,Forestcraft,Neutral,1,Dragoncraft,PDK,0,Forestcraft,Aggro,1,Swordcraft,Support Cannon,1,Havencraft,Tenko,0,,,,,,1,,,3
 6/8/2018 15:09:05,A,Bloodcraft,Vengeance,Grand Master,Havencraft,Tenko,1,Shadowcraft,Arcus,0,Runecraft,Ginger,1,Havencraft,Summit,1,Havencraft,Summit,1,60,,1,,,,,,4
 6/8/2018 18:36:42,A,Bloodcraft,Jormungand,Master,Forestcraft,Aggro,0,Forestcraft,Aggro,0,Forestcraft,Midrange,0,Runecraft,Spellboost,0,Dragoncraft,PDK,1,0,,,,1,,,,1
@@ -81,7 +81,7 @@ Timestamp,Group,Class Used,Archetype,Rotation Rank,Class1,Archetype1,Result1,Cla
 6/11/2018 22:32:21,A,Forestcraft,Control,Grand Master,Forestcraft,Aggro,1,Dragoncraft,PDK,0,Havencraft,Tenko,1,Forestcraft,Aggro,1,Dragoncraft,PDK,1,130,,2,,,,,,4
 6/12/2018 3:08:45,A,Forestcraft,Midrange,Master,Runecraft,Mysteria,1,Havencraft,Tenko,1,Bloodcraft,Neutral,1,Bloodcraft,Vengeance,1,Dragoncraft,Lindworm,1,280,,,,,1,1,,5
 6/12/2018 3:42:32,A,Forestcraft,Aggro,A,Forestcraft,Aggro,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Portalcraft,Artifact,1,Portalcraft,Artifact,1,,,,,,,,,5
-6/12/2018 4:56:35,A,Forestcraft,Neutral,Master,Havencraft,Tenko,1,Shadowcraft,Arcus,0,Runecraft,Spellboost,1,Swordcraft,PDK,1,Portalcraft,Artifact,1,,,,,,,,,4
+6/12/2018 4:56:35,A,Forestcraft,Neutral,Master,Havencraft,Tenko,1,Shadowcraft,Arcus,0,Runecraft,Spellboost,1,Dragoncraft,PDK,1,Portalcraft,Artifact,1,,,,,,,,,4
 6/12/2018 6:10:31,A,Forestcraft,Aggro,Master,Dragoncraft,PDK,1,Forestcraft,Midrange,1,Dragoncraft,Ramp,1,Runecraft,Ginger,1,Forestcraft,Neutral,0,70,,,,,1,1,,4
 6/12/2018 11:09:38,A,Forestcraft,Aggro,Master,Dragoncraft,PDK,1,Dragoncraft,PDK,1,Havencraft,Tenko,0,Dragoncraft,Aggro,1,Portalcraft,Artifact,1,80,,1,,,,,,4
 6/8/2018 22:58:59,A,Havencraft,Summit,Grand Master,Dragoncraft,PDK,1,Dragoncraft,PDK,1,Havencraft,Summit,1,Bloodcraft,Vengeance,1,Dragoncraft,PDK,1,250,,1,,,,1,,5
@@ -101,7 +101,7 @@ Timestamp,Group,Class Used,Archetype,Rotation Rank,Class1,Archetype1,Result1,Cla
 6/11/2018 13:08:24,A,Portalcraft,Artifact,A,Forestcraft,Neutral,1,Forestcraft,Midrange,1,Swordcraft,Midrange,1,Portalcraft,Artifact,1,Dragoncraft,PDK,0,90,,,2,,,,,4
 6/11/2018 14:19:36,B,Portalcraft,Artifact,A,Portalcraft,Puppet,1,Bloodcraft,Vengeance,0,Havencraft,Tenko,1,Havencraft,Amulet,1,Havencraft,Tenko,1,30,,,2,,,,,4
 6/11/2018 17:24:23,A,Portalcraft,Artifact,Grand Master,Forestcraft,Neutral,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Bloodcraft,Vengeance,1,280,,,,1,,1,,5
-6/11/2018 23:36:55,A,Portalcraft,Hybrid,Master,Forestcraft,Aggro,1,Dragoncraft,PDK,1,Havencraft,Tenko,1,Havencraft,Tenko+Summit,0,Forestcraft,Neutral,1,300,,1,1,2,1,,,4
+6/11/2018 23:36:55,A,Portalcraft,Hybrid,Master,Forestcraft,Aggro,1,Dragoncraft,PDK,1,Havencraft,Tenko,1,Havencraft,Tenko,0,Forestcraft,Neutral,1,300,,1,1,2,1,,,4
 6/12/2018 2:00:25,A,Portalcraft,Artifact,Master,Forestcraft,Midrange,1,Swordcraft,Neutral,1,Swordcraft,Aggro,0,Dragoncraft,Ramp,1,Forestcraft,Aggro,1,60,,,,1,,1,,4
 6/12/2018 6:26:18,A,Portalcraft,Hybrid,Grand Master,Havencraft,Summit,0,Bloodcraft,Vengeance,1,Dragoncraft,Ramp,0,Swordcraft,Aggro,1,Havencraft,Summit,1,90,,,1,,,,,3
 6/8/2018 17:33:15,A,Runecraft,Ginger,Master,Dragoncraft,Ramp,1,Dragoncraft,PDK,1,Runecraft,Spellboost,0,Forestcraft,Aggro,1,Forestcraft,Aggro,1,90,,2,,,,,,4
@@ -130,7 +130,7 @@ Timestamp,Group,Class Used,Archetype,Rotation Rank,Class1,Archetype1,Result1,Cla
 6/9/2018 2:20:46,A,Swordcraft,Support Cannon,B,Havencraft,Tenko,1,Shadowcraft,Midrange,0,Runecraft,Spellboost,1,Forestcraft,Midrange,1,Dragoncraft,PDK,1,90,,,,2,,,,4
 6/9/2018 2:42:02,A,Swordcraft,Midrange,AA,Swordcraft,Aggro,1,Swordcraft,Midrange,1,Forestcraft,Aggro,1,Forestcraft,Aggro,1,Havencraft,Tenko,1,280,,1,,,,1,,5
 6/9/2018 3:01:16,A,Swordcraft,Neutral,Master,Forestcraft,Aggro,1,Bloodcraft,Vengeance,1,Bloodcraft,Vengeance,1,Forestcraft,Aggro,1,Havencraft,Tenko,0,70,,,,1,,1,,4
-6/9/2018 6:45:50,A,Swordcraft,Midrange,Master,Forestcraft,Aggro,1,Forestcraft,Aggro,1,Dragoncraft,Storm,1,Havencraft,Tenko,1,Bloodcraft,Vengeance,1,280,,,1,,,1,,5
+6/9/2018 6:45:50,A,Swordcraft,Midrange,Master,Forestcraft,Aggro,1,Forestcraft,Aggro,1,Dragoncraft,Ramp,1,Havencraft,Tenko,1,Bloodcraft,Vengeance,1,280,,,1,,,1,,5
 6/10/2018 8:53:23,A,Swordcraft,Midrange,Grand Master,Swordcraft,Midrange,1,Havencraft,Tenko,1,Bloodcraft,Vengeance,1,Swordcraft,Midrange,0,Forestcraft,Neutral,0,90,,1,,,,,,3
 6/11/2018 14:19:13,B,Swordcraft,Midrange,B,Forestcraft,Control,0,Dragoncraft,PDK,1,Havencraft,Tenko,0,Bloodcraft,Aggro,1,Runecraft,Mysteria,1,,,,,,,,,3
 6/11/2018 14:47:35,A,Swordcraft,Midrange,Grand Master,Forestcraft,Aggro,0,Bloodcraft,Vengeance,1,Dragoncraft,Lindworm,1,Shadowcraft,,1,Bloodcraft,Vengeance,1,90,,,,,2,,,4
