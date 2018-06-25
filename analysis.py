@@ -46,7 +46,6 @@ def analyze_vertical(df, n):
 
         # Archetypes
         class_archetype = count_col(dfc, ['Class', 'Archetype'])
-        phead(class_archetype)
         plot_pie(class_archetype, "Archetype Distribution for {} - All - Stage {}".format(c, n), "{}_full_arch_pie_s{}".format(c, n))
 
 

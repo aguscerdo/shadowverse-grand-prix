@@ -85,8 +85,7 @@ def best_decks_n(df, n=10, mincount=10):
     df0 = stack_match(df)
     df0 = df0.groupby(['Class', 'Archetype']).agg({'Result':'mean', 'Archetype':'size'}).reset_index(level="count")
     df0 = df0[df0['count'] > mincount]
-    phead(df0)
-    exit(0)
+
     return mean_col(df0, ['Class', 'Archetype'], 'Result').nlargest(n)
 
 
