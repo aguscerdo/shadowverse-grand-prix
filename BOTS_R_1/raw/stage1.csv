@@ -1,0 +1,293 @@
+Timestamp,Class,Archetype,Rank,Class1,Archetype1,Result1,Class2,Archetype2,Result2,Class3,Archetype3,Result3,Class4,Archetype4,Result4,Class5,Archetype5,Result5,Wins
+7/6/18 8:07,Havencraft,Lion Crystal,AA,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,4
+7/6/18 8:14,Shadowcraft,Arcus,AA,Shadowcraft,Arcus,0,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,2
+7/6/18 8:15,Havencraft,Lion Crystal,Master,Havencraft,Lion Crystal,1,Runecraft,Spellboost,1,Havencraft,Lion Crystal,0,Portalcraft,Puppet,0,Havencraft,Lion Crystal,1,3
+7/6/18 8:15,Dragoncraft,Jabberwock,Master,Portalcraft,Puppet,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,4
+7/6/18 8:24,Swordcraft,Midrange,Master,Swordcraft,Midrange,1,Havencraft,Tenko,1,Portalcraft,Puppet,1,Shadowcraft,Arcus,0,Dragoncraft,Ramp,1,4
+7/6/18 8:26,Swordcraft,Midrange,Master,Shadowcraft,Arcus,1,Havencraft,Tenko,1,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Forestcraft,Midrange,1,5
+7/6/18 8:40,Swordcraft,Midrange,Master,Dragoncraft,PDK,1,Shadowcraft,Midrange,1,Havencraft,Tenko,0,Runecraft,Spellboost,1,Dragoncraft,Lindworm,1,4
+7/6/18 8:41,Portalcraft,Puppet,Master,Havencraft,Tenko,1,Swordcraft,Midrange,0,Forestcraft,Aggro,1,Havencraft,Lion Crystal,1,Shadowcraft,Reanimate,1,4
+7/6/18 8:42,Forestcraft,Midrange,Grand Master,Havencraft,Lion Crystal,1,Shadowcraft,Reanimate,0,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Tenko,1,4
+7/6/18 8:45,Portalcraft,Puppet,Master,Swordcraft,Midrange,1,Havencraft,Tenko,0,Forestcraft,Aggro,1,Dragoncraft,Jabberwock,1,Swordcraft,Midrange,1,4
+7/6/18 8:48,Portalcraft,Artifact,A,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,0,0
+7/6/18 8:50,Portalcraft,Puppet,C,Havencraft,Tenko,0,Bloodcraft,Jormungand,1,Swordcraft,,1,Portalcraft,Hybrid,1,Havencraft,Tenko,0,3
+7/6/18 8:51,Portalcraft,Artifact,Master,Havencraft,,1,Runecraft,Spellboost,0,Swordcraft,Midrange,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,4
+7/6/18 9:01,Dragoncraft,Windmill,AA,Dragoncraft,Jabberwock,1,Havencraft,Tenko,0,Swordcraft,Aggro,1,Portalcraft,Artifact,0,Shadowcraft,Reanimate,0,2
+7/6/18 9:02,Forestcraft,Midrange,Master,Forestcraft,Midrange,1,Forestcraft,Aggro,1,Swordcraft,Midrange,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,3
+7/6/18 9:04,Portalcraft,Puppet,AA,Dragoncraft,Lindworm,1,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Forestcraft,Midrange,0,2
+7/6/18 9:04,Portalcraft,Artifact,Master,Forestcraft,Neutral,1,Shadowcraft,Arcus,1,Portalcraft,Artifact,1,Swordcraft,Midrange,1,Runecraft,Spellboost,1,5
+7/6/18 9:07,Forestcraft,Midrange,Master,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Dragoncraft,Lindworm,0,Bloodcraft,Aggro,1,4
+7/6/18 9:14,Swordcraft,Midrange,Master,Shadowcraft,Hinterland,1,Shadowcraft,Reanimate,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Bloodcraft,Vengeance,1,5
+7/6/18 9:21,Havencraft,Tenko,Master,Swordcraft,Midrange,1,Swordcraft,Midrange,1,Swordcraft,Midrange,0,Portalcraft,Puppet,1,Swordcraft,Midrange,1,4
+7/6/18 9:31,Havencraft,Tenko,Master,Havencraft,Tenko,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Runecraft,Spellboost,1,5
+7/6/18 9:35,Swordcraft,Midrange,Master,Forestcraft,Aggro,1,Runecraft,Spellboost,0,Shadowcraft,Midrange,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,4
+7/6/18 9:44,Portalcraft,Artifact,AA,Runecraft,Spellboost,1,Havencraft,Lion Crystal,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,1
+7/6/18 9:45,Havencraft,Lion Crystal,A,Swordcraft,Midrange,0,Portalcraft,Puppet,0,Swordcraft,Midrange,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,0,1
+7/6/18 9:50,Forestcraft,Aggro,Master,Portalcraft,Puppet,1,Havencraft,Amulet,1,Havencraft,Amulet,1,Portalcraft,Puppet,1,Swordcraft,Midrange,0,4
+7/6/18 9:53,Shadowcraft,Reanimate,AA,Forestcraft,Aggro,1,Bloodcraft,Jormungand,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,Havencraft,Tenko,0,4
+7/6/18 9:59,Runecraft,Spellboost,AA,Bloodcraft,Midrange,1,Portalcraft,Puppet,0,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,3
+7/6/18 10:04,Portalcraft,Puppet,AA,Portalcraft,Puppet,1,Havencraft,Tenko,0,Dragoncraft,Ramp,1,Swordcraft,Midrange,1,Portalcraft,Artifact,1,4
+7/6/18 10:13,Havencraft,Lion Crystal,AA,Havencraft,Tenko,0,Swordcraft,Aggro,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,2
+7/6/18 10:15,Forestcraft,Neutral,AA,Havencraft,Tenko,1,Dragoncraft,Lindworm,1,Portalcraft,Artifact,1,Swordcraft,Midrange,0,Forestcraft,Aggro,1,4
+7/6/18 10:15,Forestcraft,Aggro,Master,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,1,Shadowcraft,Arcus,1,Forestcraft,Aggro,1,5
+7/6/18 10:20,Portalcraft,Puppet,C,Forestcraft,Aggro,0,Swordcraft,Midrange,0,Runecraft,Dirt,1,Portalcraft,Hybrid,1,Swordcraft,Midrange,0,2
+7/6/18 10:23,Dragoncraft,Ramp,B,Swordcraft,Midrange,0,Havencraft,Lion Crystal,1,Portalcraft,Artifact,1,Swordcraft,Aggro,1,Shadowcraft,Reanimate,1,4
+7/6/18 10:25,Runecraft,Spellboost,Master,Swordcraft,Midrange,1,Shadowcraft,Midrange,1,Havencraft,Lion Crystal,0,Swordcraft,Midrange,0,Shadowcraft,Reanimate,1,3
+7/6/18 10:34,Swordcraft,Midrange,A,Havencraft,Lion Crystal,1,Forestcraft,Midrange,1,Havencraft,Tenko,0,Havencraft,Tenko,0,Dragoncraft,Lindworm,1,3
+7/6/18 10:35,Dragoncraft,,Master,Havencraft,Tenko,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,1,Portalcraft,Puppet,0,Dragoncraft,Jabberwock,1,3
+7/6/18 10:36,Forestcraft,Aggro,Master,Havencraft,Tenko,1,Portalcraft,,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Forestcraft,Midrange,1,5
+7/6/18 10:42,Portalcraft,Artifact,Master,Shadowcraft,Arcus,1,Dragoncraft,Lindworm,1,Dragoncraft,PDK+Lindworm,1,Shadowcraft,Arcus,1,Swordcraft,Midrange,1,5
+7/6/18 10:42,Havencraft,Tenko,AA,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Portalcraft,Artifact,1,Havencraft,Lion Crystal,0,4
+7/6/18 10:46,Havencraft,,Master,Swordcraft,,1,Forestcraft,,1,Dragoncraft,,1,Runecraft,,1,Portalcraft,,1,5
+7/6/18 10:47,Runecraft,Spellboost,C,Forestcraft,Midrange,1,Swordcraft,Midrange,0,Runecraft,Mysteria,1,Dragoncraft,PDK,1,Forestcraft,Aggro,1,4
+7/6/18 10:47,Portalcraft,Puppet,Master,Dragoncraft,Ramp,1,Swordcraft,Midrange,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Portalcraft,Artifact,1,4
+7/6/18 10:49,Swordcraft,Midrange,AA,Dragoncraft,PDK+Lindworm,0,Havencraft,Tenko,1,Havencraft,Summit,1,Swordcraft,Midrange,1,Swordcraft,Midrange,1,4
+7/6/18 10:50,Forestcraft,Aggro,AA,Forestcraft,Midrange,1,Forestcraft,Midrange,1,Bloodcraft,Vengeance,1,Havencraft,Tenko,1,Swordcraft,Aggro,0,4
+7/6/18 10:51,Havencraft,Lion Crystal,B,Swordcraft,Midrange,0,Dragoncraft,Jabberwock,1,Havencraft,Lion Crystal,1,Havencraft,Amulet,1,Havencraft,Lion Crystal,1,4
+7/6/18 10:51,Portalcraft,Artifact,Master,Havencraft,Tenko,0,Swordcraft,Midrange,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Runecraft,Spellboost,0,2
+7/6/18 10:57,Swordcraft,Midrange,Master,Swordcraft,Midrange,1,Forestcraft,Midrange,1,Dragoncraft,Jabberwock,1,Portalcraft,Artifact,1,Havencraft,Tenko,1,5
+7/6/18 11:08,Havencraft,Summit,AA,Forestcraft,Midrange,1,Portalcraft,Puppet,1,Dragoncraft,Jerva,0,Runecraft,,0,Swordcraft,Midrange,1,3
+7/6/18 11:17,Bloodcraft,Aggro,A,Shadowcraft,Reanimate,0,Havencraft,Lion Crystal,0,Bloodcraft,Aggro,0,Portalcraft,Artifact,1,Runecraft,Spellboost,1,2
+7/6/18 11:19,Portalcraft,Puppet,AA,Forestcraft,Neutral,1,Runecraft,Spellboost,1,Swordcraft,Midrange,0,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,4
+7/6/18 11:20,Portalcraft,Puppet,D,Havencraft,Tenko,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Bloodcraft,Vengeance,0,Runecraft,Spellboost,0,2
+7/6/18 11:21,Forestcraft,Aggro,AA,Forestcraft,Aggro,1,Dragoncraft,Lindworm,0,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,4
+7/6/18 11:21,Forestcraft,Aggro,A,Swordcraft,Midrange,0,Bloodcraft,Vengeance,1,Shadowcraft,Midrange,1,Bloodcraft,Vengeance,1,Swordcraft,Midrange,1,4
+7/6/18 11:22,Dragoncraft,Jabberwock,Master,Havencraft,Lion Crystal,1,Shadowcraft,Arcus,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,4
+7/6/18 11:36,Portalcraft,Puppet,Master,Bloodcraft,Aggro,1,Portalcraft,,1,Havencraft,Lion Crystal,1,Bloodcraft,Jormungand,1,Havencraft,Lion Crystal,1,5
+7/6/18 11:42,Havencraft,Lion Crystal,Master,Runecraft,Spellboost,1,Swordcraft,,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,4
+7/6/18 11:45,Havencraft,Lion Crystal,Master,Runecraft,Spellboost,1,Bloodcraft,Vengeance,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,0,4
+7/6/18 11:45,Havencraft,Lion Crystal,Master,Runecraft,Spellboost,1,Bloodcraft,Vengeance,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,0,4
+7/6/18 11:45,Havencraft,Tenko,Master,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,1,3
+7/6/18 11:46,Havencraft,Tenko,Master,Havencraft,Tenko,1,Portalcraft,Artifact,1,Swordcraft,Midrange,0,Runecraft,Spellboost,0,Runecraft,Spellboost,0,2
+7/6/18 11:48,Havencraft,Tenko,Master,Swordcraft,,1,Havencraft,Tenko,1,Shadowcraft,Reanimate,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,5
+7/6/18 11:48,Havencraft,Lion Crystal,Master,Forestcraft,Aggro,0,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,1,Runecraft,Spellboost,1,4
+7/6/18 11:52,Havencraft,Tenko,Master,Forestcraft,Neutral,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,Runecraft,Dirt,1,5
+7/6/18 11:53,Portalcraft,Puppet,AA,Havencraft,Amulet,1,Swordcraft,Spartacus,1,Portalcraft,Hybrid,0,Havencraft,Tenko,0,Swordcraft,Midrange,0,2
+7/6/18 11:53,Swordcraft,Midrange,B,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,3
+7/6/18 11:58,Portalcraft,,AA,Shadowcraft,Arcus,1,Portalcraft,Artifact,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,4
+7/6/18 11:59,Portalcraft,Puppet,A,Dragoncraft,Ramp,0,Dragoncraft,Jabberwock,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Havencraft,Tenko,1,3
+7/6/18 11:59,Havencraft,Lion Crystal,A,Swordcraft,Midrange,1,Bloodcraft,Midrange,0,Havencraft,Lion Crystal,0,Forestcraft,Midrange,1,Portalcraft,Puppet,0,2
+7/6/18 12:02,Portalcraft,Puppet,A,Shadowcraft,Reanimate,1,Dragoncraft,Jabberwock,1,Runecraft,Spellboost,1,Forestcraft,Aggro,0,Havencraft,Lion Crystal,0,3
+7/6/18 12:03,Portalcraft,Puppet,A,Portalcraft,Puppet,1,Runecraft,Spellboost,0,Havencraft,Lion Crystal,1,Runecraft,Mysteria,1,Portalcraft,Puppet,1,4
+7/6/18 12:10,Dragoncraft,Lindworm,Master,Dragoncraft,Jabberwock,0,Bloodcraft,Vengeance,1,Portalcraft,Puppet,0,Portalcraft,Puppet,1,Swordcraft,Midrange,0,2
+7/6/18 12:16,Havencraft,Tenko,AA,Runecraft,Mysteria,0,Swordcraft,Aggro,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,2
+7/6/18 12:18,Havencraft,Lion Crystal,Master,Dragoncraft,Jabberwock,1,Bloodcraft,Control,1,Swordcraft,Midrange,0,Shadowcraft,Midrange,1,Havencraft,Lion Crystal,1,4
+7/6/18 12:19,Havencraft,Lion Crystal,AA,Havencraft,Amulet,1,Forestcraft,Aggro,0,Dragoncraft,Ramp,1,Havencraft,Tenko,0,Swordcraft,Midrange,0,2
+7/6/18 12:23,Forestcraft,,A,Shadowcraft,,0,Swordcraft,,0,Swordcraft,,0,Havencraft,,1,Swordcraft,,0,1
+7/6/18 12:25,Swordcraft,Midrange,Master,Swordcraft,Neutral,1,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Portalcraft,Hybrid,1,5
+7/6/18 12:26,Portalcraft,Artifact,A,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Forestcraft,Midrange,1,Dragoncraft,Ramp,1,Swordcraft,Midrange,0,4
+7/6/18 12:26,Swordcraft,Midrange,AA,Portalcraft,Artifact,1,Forestcraft,Aggro,1,Runecraft,Spellboost,1,Forestcraft,Midrange,1,Swordcraft,Midrange,1,5
+7/6/18 12:31,Forestcraft,Aggro,AA,Portalcraft,Puppet,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Swordcraft,Midrange,0,2
+7/6/18 12:34,Swordcraft,Midrange,A,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Dragoncraft,Jabberwock,1,Portalcraft,,1,5
+7/6/18 12:38,Swordcraft,Midrange,A,Bloodcraft,Neutral,1,Swordcraft,Spartacus,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Forestcraft,Midrange,0,3
+7/6/18 12:41,Havencraft,Tenko,A,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,1,Forestcraft,Aggro,1,Swordcraft,Midrange,0,3
+7/6/18 12:45,Bloodcraft,Aggro,A,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,2
+7/6/18 12:49,Portalcraft,Puppet,Master,Dragoncraft,Ramp,1,Havencraft,Summit,0,Havencraft,Tenko,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,1
+7/6/18 12:50,Runecraft,Spellboost,AA,Shadowcraft,Hinterland,1,Swordcraft,Aggro,1,Havencraft,Lion Crystal,0,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,0,3
+7/6/18 12:55,Swordcraft,Midrange,AA,Dragoncraft,Lindworm,1,Havencraft,Tenko,0,Bloodcraft,Aggro,1,Havencraft,Tenko,1,Swordcraft,Midrange,0,3
+7/6/18 13:00,Runecraft,Spellboost,Master,Swordcraft,Aggro,0,Runecraft,Spellboost,1,Forestcraft,Aggro,0,Portalcraft,Puppet,1,Havencraft,Lion Crystal,0,2
+7/6/18 13:08,Portalcraft,Puppet,C,Swordcraft,Midrange,1,Forestcraft,Aggro,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Bloodcraft,Jormungand,1,5
+7/6/18 13:10,Havencraft,Lion Crystal,B,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,0,Havencraft,Tenko,0,Swordcraft,Midrange,0,2
+7/6/18 13:12,Havencraft,Lion Crystal,A,Havencraft,Summit,0,Forestcraft,Aggro,0,Forestcraft,Aggro,1,Shadowcraft,,1,Runecraft,Spellboost,0,2
+7/6/18 13:12,Havencraft,Lion Crystal,Master,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,Havencraft,Tenko,0,3
+7/6/18 13:13,Dragoncraft,Lindworm,A,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Bloodcraft,,1,Havencraft,Tenko,0,Havencraft,Summit,1,4
+7/6/18 13:13,Havencraft,Lion Crystal,B,Shadowcraft,Reanimate,1,Bloodcraft,Aggro,0,Bloodcraft,Aggro,1,Runecraft,Spellboost,1,Bloodcraft,Aggro,0,3
+7/6/18 13:16,Swordcraft,Aggro,Master,Portalcraft,Puppet,0,Portalcraft,Puppet,1,Forestcraft,Midrange,1,Havencraft,Lion Crystal,1,Bloodcraft,Aggro,1,4
+7/6/18 13:19,Swordcraft,Midrange,A,Dragoncraft,Aggro,1,Dragoncraft,Aggro,0,Havencraft,Tenko,0,Portalcraft,Puppet,0,Swordcraft,Midrange,1,2
+7/6/18 13:22,Swordcraft,Midrange,A,Havencraft,Summit,1,Bloodcraft,Vengeance,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Swordcraft,Midrange,0,4
+7/6/18 13:22,Portalcraft,,Master,Runecraft,Spellboost,1,Portalcraft,Hybrid,1,Havencraft,Lion Crystal,0,Portalcraft,Puppet,1,Swordcraft,Midrange,1,4
+7/6/18 13:31,Havencraft,Lion Crystal,A,Runecraft,Dirt,1,Dragoncraft,Ramp,1,Havencraft,Tenko,1,Shadowcraft,Reanimate,1,Portalcraft,Artifact,1,5
+7/6/18 13:32,Forestcraft,Midrange,Master,Swordcraft,,1,Havencraft,Lion Crystal,0,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,2
+7/6/18 13:34,Forestcraft,Aggro,B,Portalcraft,Artifact,0,Forestcraft,Aggro,1,Dragoncraft,Ramp,1,Swordcraft,Midrange,0,Havencraft,Tenko,1,3
+7/6/18 13:35,Swordcraft,Midrange,A,Dragoncraft,Jabberwock,1,Runecraft,Spellboost,1,Forestcraft,,0,Swordcraft,Midrange,1,Runecraft,Spellboost,1,4
+7/6/18 13:39,Bloodcraft,Vengeance,Master,Runecraft,Spellboost,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Havencraft,Tenko,1,Swordcraft,Neutral,1,2
+7/6/18 13:40,Havencraft,Lion Crystal,B,Havencraft,Tenko,1,Portalcraft,Puppet,0,Dragoncraft,Ramp,0,Swordcraft,,1,Swordcraft,Midrange,0,2
+7/6/18 13:42,Forestcraft,Aggro,C,Swordcraft,Midrange,0,Shadowcraft,Hinterland,1,Swordcraft,Midrange,0,Runecraft,Spellboost,1,Swordcraft,Midrange,0,2
+7/6/18 13:45,Shadowcraft,Reanimate,Master,Havencraft,Lion Crystal,1,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Dragoncraft,Lindworm,1,Havencraft,Summit,1,5
+7/6/18 13:46,Swordcraft,Midrange,AA,Swordcraft,Midrange,0,Dragoncraft,Jabberwock,1,Dragoncraft,,1,Bloodcraft,Jormungand,1,Swordcraft,Midrange,1,4
+7/6/18 13:48,Forestcraft,Aggro,AA,Dragoncraft,Lindworm,1,Bloodcraft,Jormungand,0,Bloodcraft,Jormungand,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,2
+7/6/18 13:50,Forestcraft,Aggro,Master,Swordcraft,Aggro,1,Havencraft,Lion Crystal,1,Bloodcraft,Aggro,1,Forestcraft,Aggro,0,Portalcraft,Puppet,1,4
+7/6/18 13:51,Shadowcraft,Reanimate,Master,Havencraft,Tenko,1,Swordcraft,Midrange,1,Portalcraft,Artifact,1,Forestcraft,Midrange,0,Swordcraft,Midrange,0,3
+7/6/18 13:57,Havencraft,Lion Crystal,Master,Swordcraft,Midrange,0,Swordcraft,Midrange,1,Havencraft,Tenko,0,Havencraft,Tenko,1,Swordcraft,Midrange,1,3
+7/6/18 13:58,Portalcraft,Puppet,Master,Havencraft,Summit,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Runecraft,Spellboost,0,Portalcraft,Artifact,1,4
+7/6/18 13:59,Havencraft,Lion Crystal,A,Runecraft,Spellboost,1,Bloodcraft,Jormungand,1,Portalcraft,Puppet,1,Swordcraft,Midrange,1,Runecraft,Dirt,0,4
+7/6/18 14:10,Portalcraft,Puppet,D,Runecraft,Dirt,1,Runecraft,Spellboost,1,Shadowcraft,Midrange,0,Portalcraft,Puppet,0,Havencraft,Summit,0,2
+7/6/18 14:12,Shadowcraft,Arcus,C,Havencraft,Lion Crystal,1,Shadowcraft,Arcus,0,Swordcraft,Midrange,0,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,0,2
+7/6/18 14:13,Dragoncraft,Jabberwock,Master,Forestcraft,Midrange,0,Forestcraft,Aggro,1,Havencraft,Summit,0,Havencraft,Lion Crystal,1,Shadowcraft,Midrange,1,3
+7/6/18 14:16,Forestcraft,Midrange,Master,Swordcraft,Midrange,1,Swordcraft,Aggro,1,Forestcraft,Neutral,0,Runecraft,Spellboost,0,Dragoncraft,Ramp,0,2
+7/6/18 14:16,Portalcraft,Puppet,Master,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Havencraft,Tenko,0,Havencraft,Tenko,0,0
+7/6/18 14:19,Portalcraft,Artifact,Master,Dragoncraft,Lindworm,0,Havencraft,Tenko,1,Dragoncraft,Ramp,1,Swordcraft,Aggro,0,Swordcraft,Midrange,1,3
+7/6/18 14:21,Portalcraft,Artifact,Master,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,0,Bloodcraft,Vengeance,1,Shadowcraft,Reanimate,1,Forestcraft,Midrange,1,4
+7/6/18 14:35,Havencraft,Lion Crystal,C,Swordcraft,Midrange,0,Forestcraft,Aggro,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Havencraft,Tenko,1,2
+7/6/18 14:40,Havencraft,Lion Crystal,AA,Havencraft,Tenko,1,Forestcraft,Aggro,0,Swordcraft,Midrange,0,Havencraft,Tenko,1,Dragoncraft,Lindworm,1,3
+7/6/18 14:53,Forestcraft,Neutral,Master,Runecraft,Spellboost,1,Runecraft,Spellboost,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Swordcraft,Midrange,1,5
+7/6/18 14:54,Swordcraft,Midrange,A,Forestcraft,Aggro,1,Runecraft,Spellboost,1,Havencraft,Tenko,1,Havencraft,Summit,1,Shadowcraft,Hinterland,1,5
+7/6/18 14:59,Shadowcraft,Reanimate,Master,Forestcraft,Midrange,0,Swordcraft,Midrange,1,Runecraft,,0,Havencraft,Tenko,1,Shadowcraft,Arcus,1,3
+7/6/18 15:03,Havencraft,Lion Crystal,Master,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,Portalcraft,Puppet,1,Havencraft,Tenko,1,Bloodcraft,Vengeance,1,4
+7/6/18 15:17,Portalcraft,Puppet,Master,Forestcraft,Neutral,1,Forestcraft,Aggro,0,Forestcraft,Midrange,1,Forestcraft,Midrange,1,Shadowcraft,Arcus,1,4
+7/6/18 15:25,Havencraft,Tenko,Master,Dragoncraft,Lindworm,0,Swordcraft,Midrange,0,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,Dragoncraft,Lindworm,1,2
+7/6/18 15:26,Portalcraft,Rhyno,A,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Swordcraft,Midrange,1,Portalcraft,Hybrid,0,1
+7/6/18 15:29,Bloodcraft,Jormungand,AA,Runecraft,Spellboost,1,Shadowcraft,Reanimate,1,Dragoncraft,Lindworm,1,Portalcraft,Puppet,1,Dragoncraft,Jabberwock,1,5
+7/6/18 15:58,Bloodcraft,Vengeance,AA,Shadowcraft,Neutral,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,Swordcraft,Midrange,0,Forestcraft,Midrange,1,4
+7/6/18 15:58,Swordcraft,,AA,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,0
+7/6/18 15:59,Swordcraft,,AA,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,Forestcraft,,0,0
+7/6/18 16:22,Portalcraft,Puppet,AA,Havencraft,Tenko,0,Portalcraft,Puppet,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,1
+7/6/18 16:33,Portalcraft,Puppet,Master,Portalcraft,Puppet,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,1,Runecraft,Spellboost,0,Havencraft,Lion Crystal,1,3
+7/6/18 16:33,Swordcraft,Midrange,Master,Runecraft,Spellboost,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Swordcraft,Aggro,1,Portalcraft,Puppet,1,5
+7/6/18 16:36,Havencraft,Tenko,Master,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Forestcraft,Midrange,0,Forestcraft,Aggro,1,4
+7/6/18 16:39,Swordcraft,Midrange,Master,Dragoncraft,Jabberwock,0,Havencraft,Tenko,1,Runecraft,Spellboost,1,Havencraft,Tenko,1,Forestcraft,Aggro,1,4
+7/6/18 16:40,Forestcraft,Midrange,Master,Havencraft,Tenko,1,Portalcraft,Artifact,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,0,4
+7/6/18 16:49,Swordcraft,Midrange,Master,Havencraft,Lion Crystal,1,Swordcraft,Aggro,1,Bloodcraft,Jormungand,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,1,5
+7/6/18 17:00,Dragoncraft,Lindworm,AA,Portalcraft,Artifact,0,Runecraft,Spellboost,0,Forestcraft,,1,Dragoncraft,Ramp,1,Havencraft,Tenko,1,3
+7/6/18 17:01,Dragoncraft,PDK,Master,Runecraft,Spellboost,1,Bloodcraft,Vengeance,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Swordcraft,Midrange,1,4
+7/6/18 17:05,Havencraft,Lion Crystal,A,Swordcraft,Midrange,1,Havencraft,Tenko,1,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,Dragoncraft,Lindworm,0,3
+7/6/18 17:11,Swordcraft,Midrange,A,Swordcraft,Midrange,1,Swordcraft,Midrange,1,Portalcraft,Hybrid,1,Forestcraft,Neutral,1,Portalcraft,Puppet,1,5
+7/6/18 17:27,Forestcraft,Aggro,A,Havencraft,Lion Crystal,1,Runecraft,Dirt,0,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Portalcraft,Artifact,1,4
+7/6/18 17:29,Runecraft,Spellboost,A,Forestcraft,Aggro,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,Dragoncraft,Jabberwock,0,1
+7/6/18 17:46,Swordcraft,Midrange,Master,Havencraft,Lion Crystal,1,Forestcraft,Neutral,1,Havencraft,Lion Crystal,1,Bloodcraft,Aggro,0,Dragoncraft,Lindworm,1,4
+7/6/18 18:37,Forestcraft,Midrange,AA,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,5
+7/6/18 18:39,Swordcraft,Midrange,Master,Forestcraft,Midrange,1,Runecraft,Spellboost,1,Portalcraft,Puppet,1,Dragoncraft,Lindworm,1,Havencraft,Tenko,1,5
+7/6/18 19:02,Havencraft,Lion Crystal,C,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,0,Runecraft,Spellboost,0,Portalcraft,Puppet,0,2
+7/6/18 19:18,Swordcraft,Midrange,Master,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Dragoncraft,Jabberwock,1,5
+7/6/18 19:50,Portalcraft,Puppet,A,Dragoncraft,Ramp,0,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,0,2
+7/6/18 20:20,Forestcraft,Aggro,A,Swordcraft,Aggro,1,Portalcraft,Artifact,1,Dragoncraft,Lindworm,1,Bloodcraft,Aggro,0,Swordcraft,Midrange,1,4
+7/6/18 20:43,Havencraft,Lion Crystal,Master,Dragoncraft,Lindworm,1,Forestcraft,Aggro,0,Portalcraft,Puppet,1,Swordcraft,Midrange,1,Dragoncraft,Lindworm,1,4
+7/6/18 20:51,Bloodcraft,Midrange,B,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Shadowcraft,Midrange,1,Portalcraft,Puppet,0,Havencraft,Lion Crystal,1,4
+7/6/18 21:04,Swordcraft,Aggro,C,Dragoncraft,Lindworm,1,Havencraft,Tenko,0,Shadowcraft,Reanimate,1,Havencraft,Lion Crystal,1,Dragoncraft,Ramp,1,4
+7/6/18 21:57,Forestcraft,Midrange,AA,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,5
+7/6/18 23:26,Portalcraft,Puppet,C,Portalcraft,Puppet,1,Dragoncraft,PDK,1,Forestcraft,Midrange,0,Portalcraft,Hybrid,1,Dragoncraft,Lindworm,1,4
+7/7/18 0:17,Runecraft,Spellboost,Master,Forestcraft,Aggro,0,Havencraft,Tenko,1,Havencraft,Summit,1,Runecraft,Spellboost,1,Swordcraft,Midrange,0,3
+7/7/18 0:26,Runecraft,Spellboost,Master,Bloodcraft,Purson,1,Swordcraft,Midrange,1,Havencraft,Summit,1,Shadowcraft,Reanimate,1,Swordcraft,Midrange,0,4
+7/7/18 0:40,Shadowcraft,Arcus,Master,Havencraft,Tenko,1,Forestcraft,Neutral,1,Havencraft,Tenko,0,Portalcraft,Puppet,1,Havencraft,Lion Crystal,0,3
+7/7/18 1:12,Forestcraft,Midrange,B,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,0,Havencraft,Tenko,0,Havencraft,Summit,1,3
+7/7/18 2:42,Swordcraft,Midrange,Master,Havencraft,Lion Crystal,1,Swordcraft,Aggro,1,Swordcraft,Aggro,1,Forestcraft,Aggro,1,Havencraft,Lion Crystal,1,5
+7/7/18 3:40,Forestcraft,Midrange,Master,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Swordcraft,Midrange,1,Runecraft,Spellboost,1,Havencraft,Tenko,0,2
+7/7/18 6:00,Forestcraft,Midrange,Master,Swordcraft,Midrange,0,Havencraft,Tenko,1,Portalcraft,Puppet,0,Havencraft,Tenko,1,Swordcraft,Midrange,1,3
+7/7/18 6:24,Portalcraft,Artifact,B,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,Portalcraft,,1,Swordcraft,Midrange,1,2
+7/7/18 6:25,Havencraft,Lion Crystal,B,Bloodcraft,Aggro,1,Runecraft,Spellboost,1,Shadowcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,4
+7/7/18 7:34,Swordcraft,Midrange,Master,Havencraft,Tenko,1,Dragoncraft,Lindworm,0,Portalcraft,Puppet,1,Bloodcraft,Aggro,1,Havencraft,Amulet,1,4
+7/7/18 7:41,Forestcraft,Midrange,Master,Swordcraft,Midrange,1,Swordcraft,Midrange,0,Shadowcraft,Midrange,1,Runecraft,Spellboost,1,Runecraft,Spellboost,0,3
+7/7/18 7:46,Forestcraft,Midrange,Master,Havencraft,Tenko,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,5
+7/7/18 8:35,Runecraft,Spellboost,C,Swordcraft,Midrange,1,Bloodcraft,Midrange,0,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,1,Havencraft,Tenko,1,4
+7/7/18 8:59,Forestcraft,Aggro,B,Havencraft,Tenko,1,Shadowcraft,Midrange,1,Swordcraft,Midrange,0,Havencraft,Tenko,1,Shadowcraft,,1,4
+7/7/18 9:01,Portalcraft,Puppet,Grand Master,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Dragoncraft,Jabberwock,0,Havencraft,Tenko,0,Swordcraft,Midrange,1,3
+7/7/18 9:02,Swordcraft,Midrange,Grand Master,Dragoncraft,Jabberwock,0,Runecraft,Dirt,0,Forestcraft,Midrange,1,Swordcraft,Midrange,1,Havencraft,Tenko,0,2
+7/7/18 9:12,Shadowcraft,Arcus,B,Havencraft,Lion Crystal,1,Forestcraft,Neutral,0,Bloodcraft,Jormungand,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,4
+7/7/18 9:13,Havencraft,Tenko,Master,Havencraft,Lion Crystal,1,Forestcraft,Midrange,1,Runecraft,Spellboost,1,Bloodcraft,Aggro,0,Swordcraft,Midrange,1,4
+7/7/18 9:17,Forestcraft,Aggro,Master,Forestcraft,Aggro,0,Dragoncraft,Lindworm,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,4
+7/7/18 9:29,Portalcraft,Artifact,Master,Forestcraft,Midrange,1,Shadowcraft,Reanimate,1,Havencraft,Tenko,0,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,4
+7/7/18 9:35,Bloodcraft,Jormungand,A,Dragoncraft,Lindworm,1,Shadowcraft,Arcus,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,5
+7/7/18 9:57,Bloodcraft,Vengeance,A,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,0
+7/7/18 10:04,Portalcraft,Hybrid,Master,Runecraft,Dirt,1,Swordcraft,Midrange,1,Forestcraft,Aggro,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,5
+7/7/18 10:15,Havencraft,Tenko,Master,Portalcraft,Puppet,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,5
+7/7/18 10:17,Dragoncraft,Jabberwock,Master,Shadowcraft,Arcus,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,Swordcraft,Midrange,1,Runecraft,Spellboost,1,4
+7/7/18 10:24,Forestcraft,Midrange,Master,Swordcraft,Midrange,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Shadowcraft,,1,4
+7/7/18 10:29,Swordcraft,Midrange,A,Bloodcraft,Aggro,1,Havencraft,Lion Crystal,1,Runecraft,Spellboost,1,Dragoncraft,Lindworm,1,Swordcraft,Midrange,1,5
+7/7/18 10:30,Shadowcraft,Reanimate,AA,Portalcraft,Puppet,1,Portalcraft,Puppet,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,Portalcraft,Puppet,0,4
+7/7/18 10:36,Dragoncraft,Lindworm,A,Havencraft,Tenko,0,Dragoncraft,Lindworm,0,Havencraft,Tenko,0,Havencraft,Tenko,1,Swordcraft,Midrange,1,2
+7/7/18 10:40,Swordcraft,Aggro,AA,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,Shadowcraft,Midrange,1,Swordcraft,Midrange,1,Runecraft,Dirt,0,4
+7/7/18 10:40,Havencraft,Lion Crystal,Grand Master,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Swordcraft,Midrange,1,5
+7/7/18 10:42,Havencraft,Tenko,A,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,2
+7/7/18 10:46,Havencraft,Lion Crystal,D,Portalcraft,Puppet,1,Portalcraft,Puppet,1,Runecraft,Spellboost,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,4
+7/7/18 10:48,Swordcraft,Midrange,AA,Havencraft,Tenko,0,Shadowcraft,Arcus,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Dragoncraft,Ramp,1,4
+7/7/18 10:54,Swordcraft,,AA,Swordcraft,Midrange,1,Runecraft,Spellboost,0,Havencraft,Lion Crystal,0,Dragoncraft,Jabberwock,1,Dragoncraft,Lindworm,1,3
+7/7/18 10:56,Swordcraft,Midrange,AA,Dragoncraft,Jabberwock,0,Portalcraft,Puppet,1,Runecraft,Dirt,1,Portalcraft,Rhyno,1,Swordcraft,Midrange,0,3
+7/7/18 11:05,Runecraft,Spellboost,AA,Havencraft,Tenko,1,Forestcraft,Aggro,0,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,Portalcraft,Puppet,1,3
+7/7/18 11:11,Havencraft,Lion Crystal,Master,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Bloodcraft,Jormungand,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,5
+7/7/18 11:27,Forestcraft,Midrange,A,Swordcraft,Midrange,1,Runecraft,Spellboost,0,Dragoncraft,Jabberwock,1,Dragoncraft,Jabberwock,0,Shadowcraft,Reanimate,0,2
+7/7/18 11:36,Havencraft,Lion Crystal,Master,Havencraft,Tenko,1,Swordcraft,Midrange,1,Shadowcraft,Arcus,1,Dragoncraft,Jabberwock,1,Runecraft,Spellboost,1,5
+7/7/18 11:36,Swordcraft,Midrange,A,Bloodcraft,Jormungand,1,Havencraft,Tenko,1,Dragoncraft,Jabberwock,1,Portalcraft,Puppet,1,Portalcraft,Artifact,1,5
+7/7/18 11:43,Forestcraft,Midrange,Master,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,0,Dragoncraft,Lindworm,1,2
+7/7/18 12:05,Runecraft,Spellboost,Master,Portalcraft,Artifact,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Portalcraft,Artifact,1,Portalcraft,Puppet,0,4
+7/7/18 12:11,Havencraft,Lion Crystal,Master,Forestcraft,Aggro,1,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,4
+7/7/18 12:12,Swordcraft,Midrange,A,Bloodcraft,Jormungand,1,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,Bloodcraft,Jormungand,1,Dragoncraft,Jabberwock,0,3
+7/7/18 12:44,Swordcraft,Midrange,Master,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,Runecraft,Spellboost,0,Havencraft,Tenko,0,2
+7/7/18 12:44,Forestcraft,Aggro,Master,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Runecraft,Spellboost,1,3
+7/7/18 12:46,Havencraft,Lion Crystal,Master,Swordcraft,Midrange,1,Havencraft,Tenko,1,Dragoncraft,Ramp,0,Dragoncraft,Lindworm,1,Swordcraft,Midrange,1,4
+7/7/18 12:47,Portalcraft,Artifact,AA,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Havencraft,Tenko,0,Havencraft,Tenko,1,3
+7/7/18 13:42,Forestcraft,Aggro,Master,Havencraft,Tenko,1,Swordcraft,Midrange,1,Forestcraft,Aggro,1,Bloodcraft,Aggro,1,Havencraft,Tenko,1,5
+7/7/18 14:03,Havencraft,Lion Crystal,Master,Dragoncraft,Jabberwock,0,Swordcraft,Midrange,0,Dragoncraft,Jabberwock,1,Swordcraft,Midrange,1,Bloodcraft,Vengeance,1,3
+7/7/18 14:19,Dragoncraft,Jabberwock,Master,Havencraft,Tenko,1,Runecraft,Dirt,1,Havencraft,Tenko,1,Dragoncraft,Ramp,0,Havencraft,Lion Crystal,1,4
+7/7/18 14:20,Havencraft,Lion Crystal,B,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,5
+7/7/18 14:21,Dragoncraft,Lindworm,Master,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,1
+7/7/18 14:27,Dragoncraft,Jabberwock,C,Dragoncraft,Lindworm,1,Bloodcraft,Aggro,0,Portalcraft,Puppet,0,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,2
+7/7/18 14:41,Havencraft,Tenko,B,Runecraft,Spellboost,0,Portalcraft,Puppet,1,Dragoncraft,Ramp,0,Havencraft,Tenko,0,Havencraft,Tenko,0,1
+7/7/18 14:52,Swordcraft,Midrange,Master,Havencraft,Lion Crystal,0,Dragoncraft,Lindworm,1,Swordcraft,Midrange,1,Dragoncraft,Lindworm,1,Swordcraft,Midrange,1,4
+7/7/18 14:53,Swordcraft,Midrange,C,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Dragoncraft,PDK,0,Portalcraft,Artifact,0,Havencraft,Tenko,0,0
+7/7/18 15:08,Bloodcraft,Aggro,D,Forestcraft,,1,Havencraft,Lion Crystal,1,Dragoncraft,,1,Shadowcraft,,1,Swordcraft,Midrange,0,4
+7/7/18 15:16,Swordcraft,Midrange,AA,Forestcraft,,1,Swordcraft,Midrange,0,Runecraft,Spellboost,1,Shadowcraft,Midrange,1,Havencraft,Lion Crystal,1,4
+7/7/18 15:39,Forestcraft,Aggro,AA,Swordcraft,Midrange,1,Havencraft,Summit,0,Runecraft,Mysteria,0,Forestcraft,Aggro,1,Dragoncraft,Jabberwock,0,2
+7/7/18 15:44,Swordcraft,Midrange,AA,Portalcraft,Puppet,0,Portalcraft,Puppet,1,Portalcraft,Puppet,0,Havencraft,Summit,1,Havencraft,Lion Crystal,0,2
+7/7/18 15:46,Bloodcraft,Jormungand,Master,Havencraft,Tenko,1,Forestcraft,Aggro,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,4
+7/7/18 15:54,Dragoncraft,Jabberwock,A,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Shadowcraft,Arcus,0,0
+7/7/18 15:59,Havencraft,Lion Crystal,C,Havencraft,Tenko,1,Dragoncraft,PDK,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,3
+7/7/18 16:18,Shadowcraft,Arcus,Master,Dragoncraft,Lindworm,1,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,2
+7/7/18 16:23,Dragoncraft,Lindworm,Master,Portalcraft,Puppet,1,Swordcraft,Midrange,1,Runecraft,Spellboost,0,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,1,4
+7/7/18 17:21,Portalcraft,Puppet,AA,Havencraft,Lion Crystal,1,Dragoncraft,Jabberwock,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,5
+7/7/18 17:37,Swordcraft,Midrange,AA,Forestcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Runecraft,Spellboost,1,Bloodcraft,Jormungand,1,5
+7/7/18 17:39,Swordcraft,Midrange,Master,Forestcraft,Aggro,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Swordcraft,Aggro,1,Dragoncraft,Lindworm,1,5
+7/7/18 17:42,Portalcraft,Puppet,Master,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Swordcraft,Midrange,0,Dragoncraft,Lindworm,1,4
+7/7/18 17:42,Portalcraft,Artifact,B,Portalcraft,Artifact,1,Forestcraft,Neutral,1,Havencraft,Tenko,1,Shadowcraft,Arcus,1,Bloodcraft,Midrange,1,5
+7/7/18 18:26,Runecraft,Spellboost,AA,Runecraft,Spellboost,1,Portalcraft,Artifact,1,Portalcraft,Puppet,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,4
+7/7/18 18:32,Havencraft,,Master,Swordcraft,,1,Portalcraft,,1,Runecraft,,1,Shadowcraft,,1,Swordcraft,,0,4
+7/7/18 18:52,Havencraft,Lion Crystal,C,Swordcraft,Midrange,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,Dragoncraft,Jabberwock,1,Swordcraft,Midrange,0,4
+7/7/18 18:53,Swordcraft,Midrange,Master,Portalcraft,Puppet,1,Forestcraft,Aggro,1,Runecraft,Spellboost,1,Dragoncraft,Lindworm,1,Havencraft,Tenko,1,5
+7/7/18 18:54,Swordcraft,Midrange,Master,Swordcraft,Aggro,1,Bloodcraft,Jormungand,0,Shadowcraft,Reanimate,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,4
+7/7/18 18:56,Havencraft,Lion Crystal,B,Forestcraft,Aggro,1,Dragoncraft,Ramp,1,Bloodcraft,Jormungand,0,Forestcraft,Aggro,0,Dragoncraft,Lindworm,1,3
+7/7/18 19:44,Dragoncraft,Ramp,Master,Shadowcraft,Reanimate,1,Forestcraft,Aggro,1,Bloodcraft,Purson,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,1,4
+7/7/18 19:46,Runecraft,Spellboost,Master,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Portalcraft,Puppet,0,Shadowcraft,Reanimate,1,4
+7/7/18 19:50,Swordcraft,Midrange,AA,Havencraft,Tenko,0,Forestcraft,Midrange,1,Dragoncraft,PDK+Lindworm,1,Havencraft,Tenko,0,Havencraft,Tenko,0,2
+7/7/18 20:20,Havencraft,Lion Crystal,Master,Havencraft,Tenko,1,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,0,Dragoncraft,Ramp,0,3
+7/7/18 20:35,Portalcraft,Puppet,D,Forestcraft,Aggro,1,Swordcraft,Aggro,0,Bloodcraft,Aggro,1,Forestcraft,Aggro,1,Bloodcraft,Vengeance,0,3
+7/7/18 20:43,Swordcraft,Midrange,Master,Swordcraft,Midrange,1,Forestcraft,Midrange,1,Portalcraft,Artifact,1,Dragoncraft,Ramp,1,Runecraft,Neutral,1,5
+7/7/18 21:20,Dragoncraft,Lindworm,AA,Dragoncraft,Lindworm,1,Portalcraft,Puppet,1,Runecraft,Spellboost,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,0,4
+7/7/18 21:41,Swordcraft,,AA,Havencraft,,1,Portalcraft,,1,Portalcraft,,0,Havencraft,,1,Bloodcraft,,1,4
+7/7/18 22:04,Portalcraft,Puppet,AA,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Forestcraft,Aggro,0,0
+7/7/18 23:25,Bloodcraft,Jormungand,AA,Havencraft,Tenko,1,Portalcraft,Puppet,0,Havencraft,Tenko,1,Forestcraft,Neutral,1,Dragoncraft,Lindworm,1,4
+7/7/18 23:43,Havencraft,Garuda,A,Havencraft,Tenko,1,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Swordcraft,Aggro,0,4
+7/8/18 1:05,Bloodcraft,Snake,Grand Master,Swordcraft,Midrange,1,Swordcraft,Midrange,1,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,5
+7/8/18 1:38,Swordcraft,Midrange,Grand Master,Swordcraft,Midrange,0,Runecraft,Spellboost,0,Havencraft,Tenko,1,Havencraft,Tenko,1,Swordcraft,Aggro,1,3
+7/8/18 2:06,Swordcraft,Midrange,A,Dragoncraft,Ramp,1,Dragoncraft,Jabberwock,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,2
+7/8/18 2:47,Forestcraft,Midrange,Master,Runecraft,Spellboost,0,Havencraft,Tenko,1,Bloodcraft,Aggro,1,Forestcraft,Midrange,1,Forestcraft,Midrange,1,4
+7/8/18 5:39,Forestcraft,Midrange,Master,Swordcraft,Aggro,0,Swordcraft,Midrange,1,Portalcraft,Puppet,0,Runecraft,Spellboost,1,Havencraft,Tenko,1,3
+7/8/18 5:41,Havencraft,Lion Crystal,Master,Swordcraft,Midrange,1,Dragoncraft,Lindworm,1,Havencraft,Tenko,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,5
+7/8/18 5:43,Forestcraft,Midrange,Master,Bloodcraft,Jormungand,1,Portalcraft,Artifact,1,Havencraft,Tenko,0,Dragoncraft,Ramp,1,Havencraft,Lion Crystal,1,4
+7/8/18 6:05,Dragoncraft,Jabberwock,Master,Havencraft,Tenko,0,Havencraft,Lion Crystal,0,Forestcraft,Aggro,1,Havencraft,Lion Crystal,0,Swordcraft,Midrange,1,2
+7/8/18 6:30,Swordcraft,Midrange,Master,Swordcraft,Midrange,1,Shadowcraft,Arcus,1,Runecraft,Spellboost,1,Swordcraft,Aggro,1,Swordcraft,Midrange,1,5
+7/8/18 7:32,Havencraft,Lion Crystal,A,Swordcraft,Midrange,1,Swordcraft,Aggro,1,Swordcraft,Midrange,1,Portalcraft,Hybrid,1,Shadowcraft,Reanimate,1,5
+7/8/18 7:34,Portalcraft,,Master,Shadowcraft,,1,Runecraft,,0,Havencraft,,0,Runecraft,,0,Swordcraft,,0,1
+7/8/18 9:17,Swordcraft,Midrange,AA,Swordcraft,Aggro,1,Swordcraft,Midrange,1,Runecraft,Spellboost,0,Portalcraft,Artifact,1,Swordcraft,Midrange,1,4
+7/8/18 9:51,Shadowcraft,Reanimate,B,Swordcraft,Midrange,1,Shadowcraft,Reanimate,1,Swordcraft,Midrange,0,Havencraft,Lion Crystal,0,Swordcraft,Midrange,0,2
+7/8/18 10:26,Portalcraft,Puppet,C,Forestcraft,Aggro,1,Swordcraft,Midrange,0,Dragoncraft,Jabberwock,1,Shadowcraft,Reanimate,1,Portalcraft,Hybrid,1,4
+7/8/18 10:46,Forestcraft,Aggro,D,Havencraft,Lion Crystal,1,Dragoncraft,Lindworm,0,Forestcraft,Midrange,0,Runecraft,Spellboost,1,Runecraft,Spellboost,0,2
+7/8/18 13:51,Forestcraft,Midrange,Master,Havencraft,Tenko,0,Swordcraft,Midrange,1,Forestcraft,Aggro,1,Portalcraft,Puppet,1,Dragoncraft,Jabberwock,0,3
+7/8/18 14:20,Forestcraft,Midrange,Master,Havencraft,Tenko,0,Havencraft,Tenko,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,4
+7/8/18 14:56,Shadowcraft,Arcus,Master,Bloodcraft,Vengeance,1,Dragoncraft,Lindworm,1,Portalcraft,Puppet,0,Swordcraft,Midrange,1,Swordcraft,Midrange,0,3
+7/8/18 15:47,Forestcraft,Aggro,AA,Portalcraft,Artifact,0,Swordcraft,Midrange,1,Runecraft,Spellboost,1,Havencraft,Tenko,1,Shadowcraft,Arcus,1,4
+7/8/18 16:27,Runecraft,Spellboost,AA,Shadowcraft,Arcus,1,Swordcraft,Midrange,1,Swordcraft,Midrange,1,Dragoncraft,PDK,1,Havencraft,Tenko,1,5
+7/8/18 17:39,Shadowcraft,Arcus,C,Runecraft,Spellboost,1,Swordcraft,Midrange,0,Swordcraft,Midrange,0,Havencraft,Tenko,0,Forestcraft,Neutral,1,2
+7/8/18 19:59,Portalcraft,Puppet,Master,Swordcraft,Midrange,1,Havencraft,Summit,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Bloodcraft,Aggro,0,4
+7/8/18 20:41,Havencraft,Summit,A,Runecraft,Spellboost,1,Dragoncraft,Jabberwock,1,Shadowcraft,Arcus,0,Swordcraft,Midrange,1,Swordcraft,Midrange,1,4
+7/8/18 21:21,Havencraft,Lion Crystal,AA,Portalcraft,Hybrid,1,Portalcraft,Artifact,1,Portalcraft,Hybrid,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,5
+7/8/18 22:49,Dragoncraft,Lindworm,Master,Portalcraft,Puppet,1,Runecraft,Spellboost,1,Havencraft,Lion Crystal,1,Shadowcraft,Arcus,1,Forestcraft,Aggro,0,4
+7/8/18 23:20,Swordcraft,Midrange,A,Runecraft,Neutral,1,Forestcraft,Aggro,1,Swordcraft,Midrange,1,Forestcraft,Midrange,1,Bloodcraft,Aggro,1,5
+7/8/18 23:59,Forestcraft,Aggro,Grand Master,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,0,Havencraft,Tenko,1,Havencraft,Lion Crystal,0,3
+7/9/18 1:13,Dragoncraft,Lindworm,AA,Dragoncraft,Lindworm,1,Dragoncraft,Lindworm,1,Dragoncraft,Lindworm,0,Dragoncraft,Lindworm,1,Dragoncraft,Lindworm,1,4
+7/9/18 2:44,Forestcraft,Midrange,Master,Forestcraft,Neutral,1,Forestcraft,Midrange,1,Portalcraft,Puppet,1,Havencraft,Lion Crystal,0,Shadowcraft,Reanimate,1,4
+7/9/18 2:46,Runecraft,Spellboost,Master,Dragoncraft,Ramp,1,Swordcraft,Midrange,1,Forestcraft,Neutral,1,Portalcraft,Artifact,0,Dragoncraft,Lindworm,1,4
+7/9/18 3:54,Portalcraft,Puppet,Master,Havencraft,Tenko,0,Forestcraft,Aggro,1,Dragoncraft,Jabberwock,0,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,3
+7/9/18 4:49,Swordcraft,Midrange,AA,Forestcraft,Aggro,1,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Dragoncraft,Jabberwock,1,5
+7/9/18 4:52,Portalcraft,Puppet,Master,Havencraft,Tenko,1,Havencraft,Tenko,1,Havencraft,Lion Crystal,1,Swordcraft,Midrange,1,Portalcraft,Puppet,1,5
+7/9/18 5:01,Forestcraft,Midrange,A,Havencraft,Lion Crystal,1,Dragoncraft,Ramp,1,Forestcraft,Neutral,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,0,4
+7/9/18 8:56,Runecraft,Spellboost,Master,Havencraft,Summit,1,Dragoncraft,Lindworm,0,Havencraft,Lion Crystal,1,Bloodcraft,Aggro,1,Portalcraft,Puppet,1,4
+7/9/18 9:36,Dragoncraft,Jabberwock,C,Dragoncraft,Ramp,0,Swordcraft,Aggro,1,Dragoncraft,PDK,1,Havencraft,Lion Crystal,0,Bloodcraft,Jormungand,1,3
+7/9/18 10:01,Swordcraft,Midrange,A,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Portalcraft,Puppet,1,Havencraft,Lion Crystal,0,Havencraft,Lion Crystal,0,3
+7/9/18 13:31,Swordcraft,Midrange,Master,Runecraft,Mysteria,1,Portalcraft,Puppet,1,Bloodcraft,Aggro,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,5
+7/9/18 13:33,Shadowcraft,Arcus,Master,Dragoncraft,Lindworm,1,Swordcraft,Midrange,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,Forestcraft,Midrange,1,5
+7/9/18 13:48,Portalcraft,Artifact,B,Havencraft,Lion Crystal,1,Forestcraft,Aggro,1,Dragoncraft,Ramp,0,Portalcraft,Puppet,0,Portalcraft,Artifact,0,2
+7/9/18 16:11,Swordcraft,Aggro,AA,Havencraft,Summit,1,Havencraft,Lion Crystal,0,Runecraft,Spellboost,1,Shadowcraft,Arcus,1,Forestcraft,Midrange,1,4
+7/9/18 17:25,Runecraft,Spellboost,Master,Shadowcraft,Arcus,1,Havencraft,Tenko,0,Havencraft,Lion Crystal,1,Runecraft,Dirt,1,Havencraft,Lion Crystal,1,4
+7/9/18 19:40,Swordcraft,Midrange,Master,Havencraft,Tenko,1,Shadowcraft,Midrange,1,Swordcraft,Aggro,1,Forestcraft,Midrange,0,Swordcraft,Midrange,0,3
+7/9/18 21:34,Havencraft,Tenko,B,Portalcraft,Puppet,1,Portalcraft,Puppet,1,Havencraft,Lion Crystal,1,Havencraft,Lion Crystal,1,Havencraft,Tenko,1,5
+7/9/18 23:07,Shadowcraft,Arcus,Master,Dragoncraft,Jabberwock,0,Havencraft,Summit,0,Havencraft,Lion Crystal,0,Forestcraft,Midrange,1,Bloodcraft,Midrange,0,1
+7/10/18 8:19,Dragoncraft,Jabberwock,C,Swordcraft,Midrange,0,Swordcraft,Aggro,1,Portalcraft,Artifact,1,Swordcraft,Midrange,0,Forestcraft,Aggro,1,3

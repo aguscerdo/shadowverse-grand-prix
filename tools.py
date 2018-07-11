@@ -39,7 +39,7 @@ def phead(df):
 def verticalize(path_csv_out, df=None, force=False):
     try:
         if force:
-            i = 1/0
+            i = 1/0 #TODO something better
         vertical = pd.read_csv(path_csv_out)
     except:
         if df is None:
@@ -51,6 +51,7 @@ def verticalize(path_csv_out, df=None, force=False):
             data.append(d.rename(columns=dict))
 
         vertical = pd.concat(data)
+
         vertical.to_csv(path_csv_out)
     return vertical
 
@@ -117,10 +118,10 @@ def plot_bar(df, title, filename, groupby=None, stack=True, h=False):
     pplot(filename)
 
 
-def pplot(filename):
+def pplot(path):
     plt.tight_layout()
-    plt.savefig("plots/{}.png".format(filename), bbox_inches='tight')
-    plt.show(bbox_inches='tight')
+    plt.savefig(path, bbox_inches='tight')
+    plt.show()
 
 
 
