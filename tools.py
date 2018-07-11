@@ -39,7 +39,7 @@ def phead(df):
 def verticalize(path_csv_out, df=None, force=False):
     try:
         if force:
-            i = 1/0 #TODO something better
+            raise Exception('Embrace Chaos')
         vertical = pd.read_csv(path_csv_out)
     except:
         if df is None:
@@ -58,10 +58,10 @@ def verticalize(path_csv_out, df=None, force=False):
 
 def stack_match(df, c=None):
     if c:
-        dfc0 = df[(df['Class'] == c) &(df['Class_o'] != c)]
+        dfc0 = df[(df['Class'] == c) & (df['Class_o'] != c)]
         dfc1 = df[(df['Class_o'] == c) & (df['Class'] != c)].copy()
         dfc1[['Class', 'Archetype', 'Class_o', 'Archetype_o']] = dfc1[['Class_o', 'Archetype_o', 'Class', 'Archetype']]
-        dfc1.loc[:, 'Result'] = dfc1.loc[:,'Result'].apply(lambda x: not x)
+        dfc1.loc[:, 'Result'] = dfc1.loc[:, 'Result'].apply(lambda x: not x)
 
         return pd.concat([dfc0, dfc1])
     else:
