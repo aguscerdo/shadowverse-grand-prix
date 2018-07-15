@@ -9,19 +9,19 @@ def main(folder, stages, force):
     # # Stage 1
     if stages in [0, 1]:
         df1 = t.r_csv(folder + "/raw/stage1.csv")
-        analyze_horizontal(df1, 1, folder)
+        analyze_horizontal(df1, 1, folder, 1)
 
         dfv1 = t.verticalize(folder + "/vertical/stage1.csv", df1, force=force)
-        analyze_vertical(dfv1, 1, folder)
+        analyze_vertical(dfv1, 1, folder, 1)
 
     # Stage 2
     if stages in [0, 2]:
 
         df2 = t.r_csv(folder + "/raw/stage2.csv")
-        analyze_horizontal(df2, 2, folder)
+        analyze_horizontal(df2, 2, folder, 2)
 
         dfv2 = t.verticalize(folder + "/vertical/stage2.csv", df2, force=force)
-        analyze_vertical(dfv2, 2, folder)
+        analyze_vertical(dfv2, 2, folder, 2)
 
 if __name__ == '__main__':
     """
@@ -39,4 +39,3 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--stage', default=0)
     args = parser.parse_args()
     main(args.folder, args.stage, args.force)
-

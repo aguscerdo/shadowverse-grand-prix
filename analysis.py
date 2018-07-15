@@ -3,8 +3,8 @@ from tools import *
 
 
 
-def analyze_horizontal(df, n, folder):
-    path = folder + '/plots/'
+def analyze_horizontal(df, n, folder, stage_number):
+    path = '{}/plots_stage{}/'.format(folder, stage_number)
     # ---- Single column distributions -----
     rank_count = count_col(df, "Rank")
     plot_pie(rank_count, "Rank Distribution - Stage {}".format(n), path+"pie_rank_count_s{}.png".format(n))
@@ -34,9 +34,9 @@ def analyze_horizontal(df, n, folder):
         plot_pie(class_archetype, "Archetype Distribution for {} - Users - Stage {}".format(c, n), path+"pie-{}_arch_pie_s{}.png".format(c, n))
 
 
-def analyze_vertical(df, n, folder):
+def analyze_vertical(df, n, folder, stage_number):
     classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
-    path = folder + '/plots/'
+    path = '{}/plots_stage{}/'.format(folder, stage_number)
     for c in classes:
         dfc = stack_match(df, c)   # Full
 
