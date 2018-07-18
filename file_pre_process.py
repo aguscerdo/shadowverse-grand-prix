@@ -6,20 +6,18 @@ def main(folder, stages):
     stages = int(stages)
     # # Stage 1
     if stages in [0, 1]:
-        path = folder + "/raw/stage1.csv"
+        path = folder + "/stage1.csv"
         df1 = r_csv(path)
-        dfv1 = verticalize(df1)
-        cleaning_time(df1, dfv1, path)
+        cleaning_time(df1, path)
 
     # Stage 2
     if stages in [0, 2]:
-        path = folder + "/raw/stage2.csv"
+        path = folder + "/stage2.csv"
         df1 = r_csv(path)
-        dfv1 = verticalize(df1)
-        cleaning_time(df1, dfv1, path)
+        cleaning_time(df1, path)
 
 # ----------------------------------------------------------------- #
-def cleaning_time(df_h, df_v, path):
+def cleaning_time(df_h, path):
     def occurs(s, line):
         return line.count(s)
 
@@ -33,9 +31,9 @@ def cleaning_time(df_h, df_v, path):
         for i, l in enumerate(lines):
             if i:
                 # Append Wins to end
-                ltmp = l.replace(",Won,", ',1,').replace(",Lost,", ',0,')
                 win_count = occurs("Won", l)
-                ltmp = "{},{}".format(ltmp, win_count)
+                ltmp = "{},{}".format(l, win_count)
+                ltmp = ltmp.replace("Won", '1').replace("Lost", '0')
                 # Append times going first
                 if turn:
                     first_count = occurs('First', l)
@@ -45,15 +43,16 @@ def cleaning_time(df_h, df_v, path):
                 ltmp = l + ",Wins"
                 if turn:
                     ltmp = ltmp + ",First"
+            ltmp = ltmp + '\n'
             print(ltmp)
-            # lines[i] = ltmp
+            lines[i] = ltmp
 
         # Flush the changes
         with open(path, 'w') as file:
             file.writelines(lines)
 
     print("Top Decks")
-    df_popular = most_popular_n(df_v)
+    df_popular = most_popular_n(verticalize(df_h))
     phead(df_popular, 10)
 
     with open(path, 'r') as file:
@@ -73,6 +72,7 @@ def cleaning_time(df_h, df_v, path):
     with open(path, 'w') as file:
         file.write(content)
         print("Write successful")
+
 
 
 if __name__ == '__main__':

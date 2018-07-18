@@ -8,7 +8,7 @@ def main(folder, stages):
     stages = int(stages)
     # # Stage 1
     if stages in [0, 1]:
-        df1 = t.r_csv(folder + "/raw/stage1.csv")
+        df1 = t.r_csv(folder + "/stage1.csv")
         analyze_horizontal(df1, 1, folder, 1)
 
         dfv1 = t.verticalize(df1)
@@ -17,7 +17,7 @@ def main(folder, stages):
     # Stage 2
     if stages in [0, 2]:
 
-        df2 = t.r_csv(folder + "/raw/stage2.csv")
+        df2 = t.r_csv(folder + "/stage2.csv")
         analyze_horizontal(df2, 2, folder, 2)
 
         dfv2 = t.verticalize(df2)
@@ -46,8 +46,5 @@ if __name__ == '__main__':
         os.mkdir("{}/plots_stage2".format(args.folder))
         print("Created plots_stage2 folder")
 
-    if not os.path.exists("{}/raw".format(args.folder)):
-        print("No raw folder")
-        raise Exception("No raw folder found")
-
+    print("Analyzing {}".format(args.folder))
     main(args.folder, args.stage)

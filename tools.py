@@ -147,7 +147,8 @@ def plot_bar(df, title, filename, groupby=None, stack=True, h=False):
 def pplot(path):
     plt.tight_layout()
     plt.savefig(path, bbox_inches='tight')
-    plt.show()
+    plt.close()
+    # plt.show()
 
 
 
