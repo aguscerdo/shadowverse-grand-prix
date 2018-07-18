@@ -23,16 +23,19 @@ def analyze_horizontal(df, n, folder, stage_number):
     plot_bar(class_wins, "Wins per Class - Stage {}".format(n), path+'bar_class_vs_win_s{}.png'.format(n), groupby='Class')
 
 
+    # First v Second Statistics
+
+    """
     # Class Statistics
-    classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
-
-    for c in classes:
-        dfc = df[df['Class'] == c]
-
-        # Class Archetypes
-        class_archetype = count_col(dfc, ['Class', 'Archetype'])
-        plot_pie(class_archetype, "Archetype Distribution for {} - Users - Stage {}".format(c, n), path+"pie-{}_arch_pie_s{}.png".format(c, n))
-
+    # !!! --- Removed archetype distribution for users. Doesn't really add much new info
+    # classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
+    # for c in classes:
+    #     dfc = df[df['Class'] == c]
+    #
+    #     # Class Archetypes
+    #     class_archetype = count_col(dfc, ['Class', 'Archetype'])
+    #     plot_pie(class_archetype, "Archetype Distribution for {} - Users - Stage {}".format(c, n), path+"pie-{}_arch_pie_s{}.png".format(c, n))
+    """
 
 def analyze_vertical(df, n, folder, stage_number):
     classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
@@ -42,20 +45,14 @@ def analyze_vertical(df, n, folder, stage_number):
 
         # Avg Winrate
         df_mean = mean_col(dfc, ['Class', 'Class_o'], 'Result')
-        plot_bar(df_mean, 'Class vs Class Winrate for {} - All - Stage {}'.format(c, n), path+'bar_{}_vs_class_s{}.png'.format(c, n))
+        plot_bar(df_mean, 'Class vs Class Winrate for {} - Stage {}'.format(c, n), path+'bar_{}_vs_class_s{}.png'.format(c, n))
 
 
         # Archetypes
         class_archetype = count_col(dfc, ['Class', 'Archetype'])
-        plot_pie(class_archetype, "Archetype Distribution for {} - All - Stage {}".format(c, n), path+"pie_{}_full_arch_pie_s{}.png".format(c, n))
+        plot_pie(class_archetype, "Archetype Distribution for {} - Stage {}".format(c, n), path+"pie_{}_arch_pie_s{}.png".format(c, n))
 
 
     # Most popular decks
     popular_decks = most_popular_n(df, 10)
-    plot_bar(popular_decks, "Most used decks - All - Stage {}".format(n), path+'bar_most_used_all_s{}.png'.format(n))
-
-    # Highest Winrate Decks
-    # best_decks = best_decks_n(df, 10)
-    # plot_bar(best_decks, 'Highest Winrate Decks - All - Stage {}'.format(n), 'best_deck_all_s{}'.format(n))
-
-
+    plot_bar(popular_decks, "Most used decks - Stage {}".format(n), path+'bar_most_used_s{}.png'.format(n))
