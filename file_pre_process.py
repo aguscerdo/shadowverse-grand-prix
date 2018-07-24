@@ -61,13 +61,15 @@ def cleaning_time(df_h, path):
     for key, val in reversed(list(df_popular.items())):
         print("\nDeck: {} -- Count: {}".format(key, val))
 
-        user_input = str(input("Change '{}' to (empty to skip, Q to exit): ".format(key[1])))
+        user_input = str(input("Change '{}' for {} to (empty to skip, Q to exit, null for empty): ".format(key[1], key[0])))
         if not user_input:
             continue
-        if user_input == "Q":
+        elif user_input == "Q":
             break
+        elif user_input == 'null':
+            user_input = ''
 
-        content = content.replace(",{},".format(key[1]), ",{},".format(user_input))
+        content = content.replace(",{},{},".format(key[0], key[1]), ",{},{},".format(key[0], user_input))
 
     with open(path, 'w') as file:
         file.write(content)
