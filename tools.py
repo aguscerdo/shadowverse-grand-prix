@@ -22,7 +22,7 @@ def phead(df, n=25):
     print(df.head(n))
 
 def has_first(df):
-    return {'First1', 'First2', 'First3', 'First4', 'First5'}.issubset(df.columns)
+    return {'First1', 'First2', 'First3', 'First4', 'First5'}.issubset(df.columns) or {'First'}.issubset(df.columns)
 
 # ------------------ DF works ------------------ #
 def verticalize(df):
@@ -73,6 +73,10 @@ def stack_match(df, c=None):
         if has_first(dfc1):
             dfc1.loc[:, 'First'] = dfc1.loc[:, 'First'].apply(lambda x: 1 if x == 2 else 2)
         return pd.concat([df, dfc1])
+
+
+def join(dfs, renames):
+    return pd.concat([dfs[i].rename(renames[i]) for i in range(len(dfs))], axis=1)
 
 
 
@@ -147,8 +151,8 @@ def plot_bar(df, title, filename, groupby=None, stack=True, h=False):
 def pplot(path):
     plt.tight_layout()
     plt.savefig(path, bbox_inches='tight')
+    plt.show()
     plt.close()
-    # plt.show()
 
 
 

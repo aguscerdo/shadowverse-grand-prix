@@ -12,18 +12,22 @@ def analyze_horizontal(df, n, folder, stage_number):
     plot_pie(class_count, "Class Distribution - Stage {}".format(n), path+"pie_class_count_s{}.png".format(n))
 
 
-    # Rank Statistics
+    # Rank by Class
     rank_class = count_col(df, ['Rank', 'Class'])
     plot_bar(rank_class, "Ranks by Class - Stage {}".format(n), path+"bar_rank_vs_class_s{}.png".format(n), groupby="Rank")
 
+    # Wins per Rank
     rank_wins = count_col(df, ['Rank', 'Wins'])
     plot_bar(rank_wins, "Wins per Rank - Stage {}".format(n), path+"bar_rank_vs_win_s{}.png".format(n), groupby='Rank')
 
+    # Wins per class
     class_wins = count_col(df, ['Class', 'Wins'])
     plot_bar(class_wins, "Wins per Class - Stage {}".format(n), path+'bar_class_vs_win_s{}.png'.format(n), groupby='Class')
 
-
-    # First v Second Statistics
+    # Wins vs First or second
+    if has_first(df):
+        first_wins = count_col(df, ['Wins', 'First'])
+        plot_bar(first_wins, "Times going First vs Wins- Stage {}".format(n), path+'bar_first_vs_win_s{}.png'.format(n), groupby='Wins', stack=False)
 
     """
     # Class Statistics
@@ -45,8 +49,16 @@ def analyze_vertical(df, n, folder, stage_number):
 
         # Avg Winrate
         df_mean = mean_col(dfc, ['Class', 'Class_o'], 'Result')
-        plot_bar(df_mean, 'Class vs Class Winrate for {} - Stage {}'.format(c, n), path+'bar_{}_vs_class_s{}.png'.format(c, n))
+        if not has_first(dfc):
+            plot_bar(df_mean, 'Class vs Class Winrate for {} - Stage {}'.format(c, n),
+                     path + 'bar_{}_vs_class_s{}.png'.format(c, n))
+        else:
+            df_mean_first = mean_col(dfc[dfc['First'] == 1], ['Class', 'Class_o'], 'Result')
+            df_mean_second = mean_col(dfc[dfc['First'] == 2], ['Class', 'Class_o'], 'Result')
 
+            df_joint = join([df_mean, df_mean_first, df_mean_second], ['Mean', 'First', 'Second'])
+            plot_bar(df_joint, 'Class vs Class Winrate for {} - Stage {}'.format(c, n),
+                     path + 'bar_{}_vs_class_s{}.png'.format(c, n), stack=False)
 
         # Archetypes
         class_archetype = count_col(dfc, ['Class', 'Archetype'])
