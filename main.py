@@ -16,7 +16,6 @@ def main(folder, stages):
 
     # Stage 2
     if stages in [0, 2]:
-
         df2 = t.r_csv(folder + "/stage2.csv")
         analyze_horizontal(df2, 2, folder, 2)
 

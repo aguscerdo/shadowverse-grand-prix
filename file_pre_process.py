@@ -1,6 +1,6 @@
 from tools import *
 import argparse
-import pandas
+import re
 
 def main(folder, stages):
     stages = int(stages)
@@ -43,9 +43,8 @@ def cleaning_time(df_h, path):
                 ltmp = l + ",Wins"
                 if turn:
                     ltmp = ltmp + ",First"
-            ltmp = ltmp + '\n'
-            print(ltmp)
-            lines[i] = ltmp
+            lines[i] = re.sub(r' +, +',',',ltmp+'\n')
+            print(lines[i])
 
         # Flush the changes
         with open(path, 'w') as file:
@@ -62,14 +61,17 @@ def cleaning_time(df_h, path):
         print("\nDeck: {} -- Count: {}".format(key, val))
 
         user_input = str(input("Change '{}' for {} to (empty to skip, Q to exit, null for empty): ".format(key[1], key[0])))
-        if not user_input:
+        if not user_input.strip():
             continue
-        elif user_input == "Q":
+        elif user_input.lower() == "Q":
             break
-        elif user_input == 'null':
+        elif user_input.lower() == 'null':
             user_input = ''
 
-        content = content.replace(",{},{},".format(key[0], key[1]), ",{},{},".format(key[0], user_input))
+        if '"' in key[1]:
+            content = content.replace(",{},\"{}\",".format(key[0], key[1]), ",{},{},".format(key[0], user_input))
+        else:
+            content = content.replace(",{},{},".format(key[0], key[1]), ",{},{},".format(key[0], user_input))
 
     with open(path, 'w') as file:
         file.write(content)

@@ -1,0 +1,84 @@
+Timestamp,Class,Archetype,Rank,Class1,Archetype1,First1,Result1,Class2,Archetype2,First2,Result2,Class3,Archetype3,First3,Result3,Class4,Archetype4,First4,Result4,Class5,Archetype5,First5,Result5,Wins,First
+7/23/2018 14:01:23,Shadowcraft,Midrange,AA,Runecraft,Daria,1,1,Forestcraft,Roach,1,1,Swordcraft,Spartacus,2,1,Runecraft,Dshift,1,0,Shadowcraft,Midrange,1,1,4,4
+7/23/2018 14:16:39,Shadowcraft,Midrange,Master,Runecraft,Dshift,1,1,Swordcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,Dragoncraft,Discard,2,0,Shadowcraft,Midrange,1,1,4,3
+7/23/2018 14:36:11,Dragoncraft,Aggro,Master,Swordcraft,Midrange,1,1,Dragoncraft,Ramp,1,0,Havencraft,Summit,1,1,Bloodcraft,Vengeance,1,0,Dragoncraft,Lindworm,1,0,2,5
+7/23/2018 14:36:48,Swordcraft,Ironwrought,Grand Master,Runecraft,Daria,1,1,Shadowcraft,Midrange,2,1,Swordcraft,Spartacus,2,1,Forestcraft,Neutral,1,1,Shadowcraft,Midrange,2,1,5,2
+7/23/2018 14:44:02,Dragoncraft,Aggro,Master,Portalcraft,Puppet,2,1,Havencraft,Control,2,1,Runecraft,Dirt,1,1,Bloodcraft,Vengeance,2,1,Runecraft,,1,1,5,2
+7/23/2018 15:03:13,Havencraft,Storm,A,Runecraft,Dshift,2,1,Runecraft,Dshift,2,1,Shadowcraft,Midrange,2,1,Forestcraft,Control,1,1,Runecraft,Dshift,1,1,5,2
+7/23/2018 15:26:10,Bloodcraft,Vengeance,Master,Bloodcraft,Aggro,,1,Swordcraft,Aggro,1,0,Bloodcraft,Vengeance,,0,Dragoncraft,Ramp,,1,Bloodcraft,Vengeance,2,1,3,1
+7/23/2018 15:37:15,Havencraft,Storm,AA,Bloodcraft,Vengeance,1,1,Portalcraft,"BANANA",2,1,Havencraft,Storm,1,1,Dragoncraft,Aggro,1,1,Shadowcraft,Midrange,2,1,5,3
+7/23/2018 16:13:35,Shadowcraft,Atomy,Master,Shadowcraft,Midrange,2,1,Dragoncraft,Roost,2,1,Bloodcraft,Vengeance,2,1,Runecraft,Dshift,1,1,Bloodcraft,Aggro,1,1,5,2
+7/23/2018 16:40:14,Shadowcraft,Midrange,B,Runecraft,Daria,1,0,Runecraft,Neutral,1,1,Shadowcraft,Midrange,2,1,Portalcraft,Artifact,1,1,Havencraft,Storm,1,1,4,4
+7/23/2018 17:02:55,Dragoncraft,Aggro,Master,Bloodcraft,Vengeance,2,1,Swordcraft,Aggro,2,1,Dragoncraft,PTP,2,1,Shadowcraft,Midrange,1,1,Shadowcraft,Midrange,1,0,4,2
+7/23/2018 17:21:45,Bloodcraft,Neutral,B,Forestcraft,Neutral,1,1,Dragoncraft,Lindworm,1,1,Forestcraft,Aggro,2,0,Shadowcraft,Midrange,2,0,Bloodcraft,,,0,2,2
+7/23/2018 18:54:30,Swordcraft,Aggro,Master,Runecraft,Daria,1,1,Runecraft,Dshift,1,1,Swordcraft,Midrange,2,0,Shadowcraft,Atomy,2,0,Shadowcraft,Midrange,2,1,3,2
+7/23/2018 18:56:08,Shadowcraft,Midrange,A,Shadowcraft,Midrange,2,0,Havencraft,Control,2,1,Bloodcraft,Vengeance,1,1,Runecraft,Dshift,1,0,Runecraft,Dirt,2,0,2,2
+7/23/2018 18:58:24,Shadowcraft,Midrange,A,Runecraft,Daria,1,0,Bloodcraft,,1,1,Shadowcraft,Midrange,2,0,Swordcraft,Midrange,2,0,Bloodcraft,Vengeance,1,0,1,3
+7/23/2018 19:03:28,Dragoncraft,Roost,Grand Master,Runecraft,Dshift,1,1,Runecraft,Dshift,1,1,Bloodcraft,Aggro,1,1,Runecraft,Dshift,2,0,Shadowcraft,Midrange,2,1,4,3
+7/23/2018 19:34:34,Shadowcraft,Midrange,Master,Forestcraft,Roach,2,0,Shadowcraft,Midrange,1,1,Shadowcraft,Midrange,2,1,Dragoncraft,Aggro,2,1,Runecraft,Dirt,2,1,4,1
+7/23/2018 19:35:49,Shadowcraft,Midrange,Master,Bloodcraft,Vengeance,2,1,Bloodcraft,Vengeance,1,1,Forestcraft,Roach,2,1,Forestcraft,Roach,2,0,Forestcraft,Roach,2,0,3,1
+7/23/2018 20:38:01,Bloodcraft,Darkfeast,Master,Dragoncraft,Aggro,2,1,Shadowcraft,Reanimate,1,1,Bloodcraft,Vengeance,2,1,Runecraft,Mysteria,2,1,Shadowcraft,Midrange,2,1,5,1
+7/23/2018 23:57:10,Shadowcraft,Midrange,Master,Swordcraft,Midrange,1,1,Runecraft,Daria,1,0,Swordcraft,Aggro,1,1,Shadowcraft,Midrange,2,1,Bloodcraft,Vengeance,1,1,4,4
+7/24/2018 2:18:57,Bloodcraft,Vengeance,Master,Havencraft,Tenko,2,1,Shadowcraft,Nephthys,2,0,Shadowcraft,Midrange,2,1,Shadowcraft,Reanimate,1,1,Swordcraft,Midrange,1,1,4,2
+7/24/2018 4:03:51,Bloodcraft,Aggro,AA,Runecraft,Dshift,1,1,Dragoncraft,Jabberwock,1,1,Shadowcraft,Midrange,2,1,Shadowcraft,Aggro,1,1,Runecraft,Daria,2,1,5,3
+7/24/2018 4:34:52,Shadowcraft,Midrange,A,Shadowcraft,Atomy,,0,Havencraft,Tenko,,1,Swordcraft,Midrange,,0,Bloodcraft,Vengeance,,0,Bloodcraft,Vengeance,,0,1,0
+7/24/2018 4:37:16,Shadowcraft,Midrange,A,Runecraft,Dirt,1,1,Forestcraft,Roach,2,1,Swordcraft,Midrange,1,1,Runecraft,Dshift,1,1,Bloodcraft,Vengeance,2,1,5,3
+7/24/2018 9:06:11,Bloodcraft,Vengeance,A,Forestcraft,Aggro,2,1,Havencraft,Elana,1,0,Shadowcraft,Midrange,1,1,Bloodcraft,Aggro,2,0,Swordcraft,Midrange,1,1,3,3
+7/24/2018 9:40:01,Shadowcraft,Midrange,Master,Runecraft,Dirt,2,1,Shadowcraft,Midrange,2,1,Bloodcraft,Aggro,2,1,Runecraft,Dshift,1,0,Runecraft,Dshift,1,1,4,2
+7/24/2018 11:05:16,Dragoncraft,Ramp,Master,Forestcraft,Roach,2,1,Dragoncraft,Aggro,2,1,Forestcraft,Roach,1,1,Runecraft,Spellboost,1,1,Shadowcraft,Midrange,2,1,5,2
+7/24/2018 14:20:35,Bloodcraft,Vengeance,Master,Runecraft,Daria,2,1,Runecraft,Daria,2,1,Forestcraft,Neutral,2,1,Dragoncraft,Roost,1,0,Runecraft,Dshift,1,1,4,2
+7/24/2018 14:57:04,Shadowcraft,Midrange,B,Forestcraft,Neutral,1,1,Shadowcraft,Midrange,2,0,Bloodcraft,Vengeance,2,0,Runecraft,Dirt,1,0,Runecraft,Dshift,1,0,1,3
+7/24/2018 15:01:46,Shadowcraft,Midrange,B,Runecraft,Dshift,1,0,Shadowcraft,Midrange,2,1,Runecraft,Dshift,1,1,Bloodcraft,Vengeance,2,1,Forestcraft,Roach,2,1,4,2
+7/24/2018 15:13:25,Swordcraft,Aggro,Master,Swordcraft,Aggro,1,1,Shadowcraft,Midrange,2,0,Dragoncraft,Aggro,2,1,Runecraft,,1,1,Shadowcraft,Midrange,1,1,4,3
+7/24/2018 15:49:11,Havencraft,Tenko,AA,Dragoncraft,Aggro,,1,Shadowcraft,Midrange,,0,Dragoncraft,Aggro,,1,Swordcraft,Aggro,,1,Runecraft,Dirt,,1,4,0
+7/24/2018 16:21:25,Bloodcraft,Control,Master,Shadowcraft,Nephthys,1,1,Swordcraft,Aggro,2,1,Shadowcraft,Midrange,2,1,Dragoncraft,Ramp,2,1,Portalcraft,Crystal Cannon,1,0,4,2
+7/24/2018 16:50:09,Dragoncraft,Roost,AA,Dragoncraft,Aggro,1,0,Forestcraft,Roach,1,1,Dragoncraft,Dragonplate,1,1,Shadowcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,4,4
+7/24/2018 18:08:30,Swordcraft,Aggro,A,Swordcraft,Midrange,2,1,Bloodcraft,Vengeance,2,0,Shadowcraft,Midrange,2,1,Swordcraft,Aggro,1,0,Forestcraft,Roach,2,0,2,1
+7/24/2018 18:51:11,Runecraft,Dirt,A,Runecraft,Dirt,1,1,Shadowcraft,Midrange,2,1,Forestcraft,Roach,2,0,Bloodcraft,Vengeance,1,0,Forestcraft,Aggro,1,1,3,3
+7/24/2018 19:07:01,Swordcraft,Midrange,Grand Master,Havencraft,Elana,2,1,Runecraft,Daria,1,0,Shadowcraft,Midrange,1,1,Shadowcraft,Midrange,2,1,Forestcraft,Roach,2,1,4,2
+7/24/2018 19:08:51,Shadowcraft,Midrange,Grand Master,Forestcraft,Roach,2,1,Runecraft,Dirt,1,0,Shadowcraft,Midrange,1,1,Havencraft,Elana,2,1,Havencraft,Elana,1,1,4,3
+7/24/2018 19:10:19,Swordcraft,Ironwrought,Grand Master,Shadowcraft,Midrange,2,1,Swordcraft,Midrange,1,1,Shadowcraft,Midrange,1,1,Runecraft,Dshift,1,1,Forestcraft,Roach,2,1,5,3
+7/24/2018 20:54:32,Runecraft,Dirt,A,Shadowcraft,Midrange,2,1,Forestcraft,Neutral,2,0,Swordcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,Forestcraft,Roach,2,1,4,1
+7/25/2018 3:02:07,Swordcraft,Aggro,Master,Shadowcraft,Atomy,1,1,Dragoncraft,Ramp,1,0,Forestcraft,Roach,2,0,Runecraft,Daria,2,1,Runecraft,Daria,1,1,3,3
+7/25/2018 12:55:16,Runecraft,Dshift,D,Havencraft,Lion,1,1,Portalcraft,Puppet,1,1,Swordcraft,Midrange,2,0,Shadowcraft,Midrange,2,0,Forestcraft,PTP,1,1,3,3
+7/25/2018 14:55:37,Havencraft,Storm,Master,Runecraft,Dshift,2,1,Runecraft,Daria,1,0,Shadowcraft,Midrange,2,0,Runecraft,Dshift,2,1,Bloodcraft,Aggro,2,0,2,1
+7/25/2018 18:20:59,Bloodcraft,Vengeance,Master,Bloodcraft,Vengeance,2,1,Bloodcraft,Vengeance,1,0,Forestcraft,Roach,2,1,Havencraft,Tenko,2,1,Bloodcraft,Vengeance,1,1,4,2
+7/25/2018 18:37:14,Shadowcraft,Midrange,Grand Master,Shadowcraft,Nephthys,2,1,Havencraft,Elana,2,1,Forestcraft,Roach,1,1,Shadowcraft,Midrange,2,1,Runecraft,Dirt,1,1,5,2
+7/25/2018 19:14:02,Runecraft,Dirt,A,Havencraft,Elana,2,1,Havencraft,Storm,1,1,Runecraft,Dirt,2,0,Havencraft,Tenko,2,0,Swordcraft,Aggro,1,1,3,2
+7/25/2018 19:43:13,Forestcraft,PTP,Master,Runecraft,Spellboost,1,1,Runecraft,Spellboost,2,1,Shadowcraft,Midrange,1,1,Dragoncraft,Ramp,1,1,Swordcraft,Aggro,1,1,5,4
+7/25/2018 20:33:04,Shadowcraft,Midrange,AA,Shadowcraft,Midrange,1,1,Swordcraft,,1,1,Forestcraft,Roach,2,0,Runecraft,Dshift,1,1,Runecraft,Daria,1,1,4,4
+7/25/2018 20:33:58,Shadowcraft,Midrange,AA,Runecraft,Dshift,2,0,Swordcraft,Aggro,1,1,Runecraft,Daria,2,0,Havencraft,Seraph,2,0,Shadowcraft,Midrange,1,1,2,2
+7/25/2018 21:06:28,Bloodcraft,Control,Master,Shadowcraft,Midrange,1,1,Dragoncraft,Aggro,2,1,Shadowcraft,Midrange,2,1,Bloodcraft,Vengeance,1,1,Dragoncraft,Aggro,2,1,5,2
+7/25/2018 22:00:59,Runecraft,Dirt,A,Havencraft,Control,1,1,Swordcraft,Midrange,2,0,Shadowcraft,Midrange,1,0,Shadowcraft,Midrange,2,1,Shadowcraft,Midrange,2,0,2,2
+7/26/2018 0:51:37,Shadowcraft,Midrange,Master,Bloodcraft,Vengeance,1,1,Runecraft,Dirt,2,0,Havencraft,Tenko,1,1,Havencraft,Control,2,0,Runecraft,Dshift,1,1,3,3
+7/26/2018 0:53:42,Shadowcraft,Midrange,B,Havencraft,Tenko,2,0,Portalcraft,Puppet,1,1,Runecraft,Daria,1,1,Swordcraft,Midrange,2,1,Forestcraft,Roach,2,0,3,2
+7/26/2018 4:48:29,Shadowcraft,Midrange,C,Shadowcraft,Midrange,1,0,Shadowcraft,Midrange,2,1,Bloodcraft,Vengeance,1,1,Shadowcraft,Midrange,2,1,Shadowcraft,Midrange,1,1,4,3
+7/26/2018 5:31:32,Bloodcraft,Darkfeast,Master,Runecraft,Dshift,,1,Forestcraft,Roach,,0,Dragoncraft,Aggro,,1,Havencraft,Tenko,,1,Shadowcraft,Midrange,,1,4,0
+7/26/2018 6:49:28,Swordcraft,Aggro,Master,Shadowcraft,Midrange,2,1,Runecraft,Dshift,2,1,Dragoncraft,Aggro,1,0,Shadowcraft,Atomy,2,1,Dragoncraft,Aggro,1,1,4,2
+7/26/2018 6:55:45,Swordcraft,Aggro,Master,Forestcraft,,1,1,Bloodcraft,Aggro,2,1,Havencraft,Elana,2,0,Bloodcraft,Control,1,1,Shadowcraft,Atomy,1,1,4,3
+7/26/2018 6:59:40,Bloodcraft,Darkfeast,Master,Shadowcraft,Atomy,,1,Shadowcraft,Midrange,1,1,Runecraft,Dirt,2,0,Bloodcraft,Vengeance,1,0,Forestcraft,Roach,,1,3,2
+7/26/2018 8:11:52,Runecraft,Dirt,AA,Shadowcraft,Midrange,2,1,Shadowcraft,Reanimate,2,1,Havencraft,Tenko,1,1,Shadowcraft,Midrange,2,1,Shadowcraft,Midrange,1,1,5,2
+7/26/2018 8:39:09,Forestcraft,Neutral,AA,Runecraft,Dirt,1,1,Swordcraft,Aggro,1,1,Dragoncraft,Jabberwock,1,1,Shadowcraft,Midrange,2,1,Portalcraft,Artifact,2,0,4,3
+7/26/2018 10:51:50,Havencraft,Elana,AA,Forestcraft,Roach,,0,Forestcraft,Neutral,,1,Forestcraft,Neutral,,1,Swordcraft,,,1,Shadowcraft,Atomy,,1,4,0
+7/26/2018 11:01:00,Shadowcraft,Atomy,A,Runecraft,Dshift,2,0,Runecraft,Dshift,1,0,Havencraft,Lion,1,1,Runecraft,Dshift,2,0,Dragoncraft,Ramp,1,1,2,3
+7/26/2018 11:07:51,Runecraft,Dshift,D,Dragoncraft,Ramp,1,0,Bloodcraft,Vengeance,1,0,Forestcraft,Aggro,1,1,Runecraft,Daria,2,0,Runecraft,Daria,2,0,1,3
+7/26/2018 11:25:59,Runecraft,Dirt,AA,Shadowcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,Shadowcraft,Midrange,1,1,Shadowcraft,Midrange,2,1,Shadowcraft,Midrange,1,0,4,3
+7/26/2018 12:40:08,Shadowcraft,Midrange,A,Shadowcraft,Atomy,1,0,Dragoncraft,Ramp,1,1,Runecraft,Daria,2,0,Forestcraft,Control,2,0,Runecraft,Burn,1,0,1,3
+7/26/2018 13:04:37,Shadowcraft,Midrange,A,Shadowcraft,Atomy,1,1,Dragoncraft,Roost,1,0,Shadowcraft,Midrange,2,0,Runecraft,Spellboost,2,0,Runecraft,Dshift,2,0,1,2
+7/26/2018 14:44:43,Shadowcraft,Midrange,Grand Master,Runecraft,Dirt,2,1,Shadowcraft,Midrange,1,1,Havencraft,Tenko,1,1,Runecraft,Dshift,1,0,Runecraft,Dirt,2,1,4,3
+7/26/2018 15:53:39,Dragoncraft,Roost,Grand Master,Runecraft,Dshift,1,1,Bloodcraft,Vengeance,2,1,Havencraft,Tenko,1,1,Swordcraft,Spartacus,2,1,Shadowcraft,Midrange,2,1,5,2
+7/26/2018 16:10:31,Runecraft,Burn,A,Havencraft,Tenko,2,1,Shadowcraft,Midrange,2,1,Runecraft,Dshift,1,0,Shadowcraft,Midrange,2,0,Forestcraft,Roach,2,0,2,1
+7/26/2018 17:04:06,Swordcraft,Aggro,Master,Forestcraft,Roach,1,1,Runecraft,Dirt,1,1,Havencraft,Storm,1,1,Runecraft,Dshift,1,1,Bloodcraft,Vengeance,1,1,5,5
+7/26/2018 17:06:00,Runecraft,Burn,A,Runecraft,Dirt,1,1,Dragoncraft,Aggro,1,1,Bloodcraft,Vengeance,2,1,Runecraft,Dshift,2,0,Runecraft,Dshift,1,0,3,3
+7/26/2018 17:48:58,Runecraft,Dshift,D,Havencraft,Neutral,2,1,Runecraft,Dshift,2,0,Swordcraft,Midrange,1,0,Dragoncraft,Roost,1,1,Dragoncraft,Aggro,2,0,2,2
+7/26/2018 18:51:16,Runecraft,Burn,A,Bloodcraft,Vengeance,2,0,Shadowcraft,Atomy,1,1,Shadowcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,Bloodcraft,Aggro,1,0,3,3
+7/26/2018 21:24:59,Runecraft,Dirt,A,Forestcraft,Roach,2,1,Shadowcraft,Midrange,2,0,Runecraft,Spellboost,1,1,Shadowcraft,Midrange,2,0,Runecraft,Dirt,2,0,2,1
+7/26/2018 23:24:13,Shadowcraft,Midrange,Master,Bloodcraft,Vengeance,1,1,Swordcraft,Midrange,2,1,Bloodcraft,Vengeance,2,1,Shadowcraft,Midrange,1,1,Shadowcraft,Midrange,2,0,4,2
+7/26/2018 23:41:48,Shadowcraft,Midrange,Master,Runecraft,Dshift,2,0,Swordcraft,Spartacus,2,1,Shadowcraft,Midrange,1,1,Runecraft,Dirt,2,1,Havencraft,Tenko,1,1,4,2
+7/27/2018 0:18:51,Bloodcraft,Vengeance,Master,Bloodcraft,Vengeance,,0,Dragoncraft,Discard,,1,Shadowcraft,Midrange,,0,Runecraft,Daria,,1,Portalcraft,Puppet,,0,2,0
+7/27/2018 0:55:33,Bloodcraft,Vengeance,Master,Runecraft,Dshift,1,1,Runecraft,Dshift,1,1,Shadowcraft,Midrange,1,1,Bloodcraft,Vengeance,2,1,Runecraft,Burn,2,1,5,3
+7/27/2018 3:01:46,Bloodcraft,Vengeance,A,Runecraft,Dshift,1,1,Runecraft,Spellboost,2,0,Havencraft,Amulet,1,1,Bloodcraft,Vengeance,2,1,Runecraft,Daria,2,1,4,2
+7/27/2018 5:29:00,Bloodcraft,Vengeance,Master,Runecraft,Dshift,2,0,Shadowcraft,Midrange,2,1,Portalcraft,Puppet,2,1,Dragoncraft,Roost,2,1,Havencraft,Tenko,2,1,4,0
+7/27/2018 8:28:47,Runecraft,Dshift,D,Runecraft,Dshift,2,0,Bloodcraft,Vengeance,1,0,Dragoncraft,Aggro,2,0,Dragoncraft,Ramp,1,0,Swordcraft,Midrange,1,0,0,3
+7/27/2018 8:46:19,Shadowcraft,Midrange,AA,Dragoncraft,Roost,1,0,Runecraft,Dshift,2,1,Bloodcraft,Vengeance,2,0,Swordcraft,Aggro,2,1,Shadowcraft,Midrange,1,1,3,2
+7/27/2018 10:24:57,Forestcraft,Anomaly,AA,Havencraft,Tenko,2,0,Forestcraft,Aggro,2,1,Havencraft,Tenko,1,1,Havencraft,Tenko,2,1,Portalcraft,Artifact,1,1,4,2
