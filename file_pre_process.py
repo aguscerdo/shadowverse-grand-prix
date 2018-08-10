@@ -36,6 +36,7 @@ def global_fixes(path):
     for c in ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft',
               'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']:
         content = re.sub(r'(?i)([^,])( +{}),'.format(c), r'\1,', content)
+        content = re.sub(r'(?i),{}: '.format(c), r',', content)
 
     with open(path, 'w') as file:
         file.write(content)
