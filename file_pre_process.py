@@ -47,6 +47,10 @@ def global_fixes(path):
     }
     df.replace(replace_dict, inplace=True, regex=True)
 
+    # Capitalize first letter
+    for i in ['', 1, 2, 3, 4, 5]:
+        df['Archetype{}'.format(i)] = df['Archetype{}'.format(i)].str.title()
+
     w_csv(df, path)
 
 
