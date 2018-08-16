@@ -1,13 +1,14 @@
 from tools import *
 import argparse
 import re
+import pandas as pd
+
 
 def main(folder, stages):
     stages = int(stages)
     # # Stage 1
     if stages in [0, 1]:
         path = folder + "/stage1.csv"
-        df1 = r_csv(path)
         cleaning_time(path)
 
     # Stage 2
@@ -15,79 +16,75 @@ def main(folder, stages):
         path = folder + "/stage2.csv"
         cleaning_time(path)
 
+
 # ----------------------------------------------------------------- #
 def cleaning_time(path):
     df = r_csv(path)
     if "Wins" not in df.columns:
         turn = has_first(df)
-        add_wins_column(path, turn)
+        add_columns(path, turn)
 
     global_fixes(path)
-
     per_entry(path)
 
 
 def global_fixes(path):
-    # Common global Cleaning
-    with open(path, 'r') as file:
-        content = file.read()
+    df = r_csv(path)
 
-    # Replace ',<deck> <class>,' --> ',<deck>,'
-    for c in ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft',
-              'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']:
-        content = re.sub(r'(?i)([^,])( +{}),'.format(c), r'\1,', content)
-        content = re.sub(r'(?i),{}: '.format(c), r',', content)
+    # Replace '<deck> <class>' -> '<deck>' AND '<class>: <deck>' -> '<deck>'
+    for c in ['Blood', 'Dragon', 'Forest', 'Haven',
+              'Portal', 'Rune', 'Shadow', 'Sword']:
+        replace_dict = {
+            r'(?i)([^ ]*)( +{}(craft)?)'.format(c): r'\1',
+            r'(?i)^{}(craft)?: +([^ ]*)'.format(c): r'\2'
+        }
+        df.replace(replace_dict, regex=True, inplace=True)
 
-    with open(path, 'w') as file:
-        file.write(content)
+    # Remove Trailing spaces
+    replace_dict = {
+        r'^(\s+)([^\s]*)': r'\2',
+        r'([^\s]*)(\s+)$': r'\1'
+    }
+    df.replace(replace_dict, inplace=True, regex=True)
+
+    w_csv(df, path)
 
 
+def add_columns(path, turn):
+    df = r_csv(path)
 
-def add_wins_column(path, turn):
-    def occurs(s, line):
-        return line.count(s)
+    # Add Wins column
+    df['Wins'] = (df == 'Won').T.sum()
+    df.replace('Won', 1, inplace=True)
+    df.replace('Lost', 0, inplace=True)
 
-    # Initial per line fixing
-    print("Adding wins")
-    with open(path, 'r') as file:
-        lines = [x.strip() for x in file.readlines()]
+    # Add First column
+    if turn:
+        df['First'] = (df == 'Won').T.sum()
+        df.replace('First', 1, inplace=True)
+        df.replace('Second', 2, inplace=True)
 
-    for i, l in enumerate(lines):
-        if i:
-            # Append Wins to end
-            win_count = occurs("Won", l)
-            ltmp = "{},{}".format(l, win_count)
-            ltmp = ltmp.replace("Won", '1').replace("Lost", '0')
-            # Append times going first
-            if turn:
-                first_count = occurs('First', l)
-                ltmp = "{},{}".format(ltmp, first_count)
-                ltmp = ltmp.replace('First', '1').replace('Second', '2')
-        else:
-            ltmp = l + ",Wins"
-            if turn:
-                ltmp = ltmp + ",First"
-        lines[i] = re.sub(r' +, +',',',ltmp+'\n')
-
-    # Flush the changes
-    with open(path, 'w') as file:
-        file.writelines(lines)
+    w_csv(df, path)
 
 
 def per_entry(path):
     df = r_csv(path)
-    # Per entry global Cleaning
+
     print("Top Decks")
     df_popular = most_popular_n(verticalize(df))
     phead(df_popular, 10)
 
-    with open(path, 'r') as file:
-        content = file.read()
+    df_popular.sort_index(0, 0, inplace=True)
 
-    for key, val in reversed(list(df_popular.items())):
+    current_class = ""
+    for key, val in list(df_popular.items()):
+        if key[0] != current_class:
+            current_class = key[0]
+            print("\n-------------------- {} --------------------".format(current_class))
+
         print("\nDeck: {} -- Count: {}".format(key, val))
-
         user_input = str(input("Change '{}' for {} to (empty to skip, Q to exit, null for empty): ".format(key[1], key[0])))
+        
         if not user_input.strip():
             continue
         elif user_input.lower() == "q":
@@ -95,11 +92,12 @@ def per_entry(path):
         elif user_input.lower() == 'null':
             user_input = ''
 
-        content = re.sub(r',{},"?{}"?,'.format(key[0], key[1]), r',{},{},'.format(key[0], user_input))
+        for i in ['', 1, 2, 3, 4, 5]:
+            deck_i = 'Class{}'.format(i)
+            archetype_i = 'Archetype{}'.format(i)
+            df.loc[(df[deck_i] == key[0]) & (df[archetype_i] == key[1]), archetype_i] = user_input
 
-    with open(path, 'w') as file:
-        file.write(content)
-        print("Write successful")
+    w_csv(df, path)
 
 
 if __name__ == '__main__':

@@ -8,7 +8,7 @@ def r_csv(path):
 
 
 def w_csv(df, path):
-    df.to_csv(path)
+    df.to_csv(path, index=False)
 
 
 def r_df(path):
@@ -24,7 +24,7 @@ def phead(df, n=25):
 
 
 def has_first(df):
-    return {'First1', 'First2', 'First3', 'First4', 'First5'}.issubset(df.columns) or {'First'}.issubset(df.columns)
+    return {'First'}.issubset(df.columns) or {'First1', 'First2', 'First3', 'First4', 'First5'}.issubset(df.columns)
 
 
 # ------------------ DF works ------------------ #
@@ -83,7 +83,7 @@ def join(dfs, renames):
 
 
 def count_col(df, col):
-    #T ODO return one col instead of 2
+    # TODO return one col instead of 2
     count = 1
     if isinstance(col, list):
         count = len(col)
