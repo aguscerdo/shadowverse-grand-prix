@@ -2,6 +2,7 @@ from tools import *
 import argparse
 import re
 import pandas as pd
+from numpy import NaN
 
 
 def main(folder, stages):
@@ -50,6 +51,10 @@ def global_fixes(path):
     # Capitalize first letter
     for i in ['', 1, 2, 3, 4, 5]:
         df['Archetype{}'.format(i)] = df['Archetype{}'.format(i)].str.title()
+
+    # Remove bad links'
+    if 'Link' in df.columns:
+        df[df.Link.notna() & df.Link.str.match(r'[^(http)]')] = NaN
 
     w_csv(df, path)
 

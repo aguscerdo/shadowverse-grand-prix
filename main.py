@@ -8,7 +8,7 @@ def main(folder, stages):
     stages = int(stages)
     # # Stage 1
     if stages in [0, 1]:
-        df1 = t.r_csv(folder + "/stage1.csv")
+        df1 = t.r_csv("Data/{}/stage1.csv".format(folder))
         analyze_horizontal(df1, 1, folder, 1)
 
         dfv1 = t.verticalize(df1)
@@ -16,11 +16,12 @@ def main(folder, stages):
 
     # Stage 2
     if stages in [0, 2]:
-        df2 = t.r_csv(folder + "/stage2.csv")
+        df2 = t.r_csv("Data/{}/stage2.csv".format(folder))
         analyze_horizontal(df2, 2, folder, 2)
 
         dfv2 = t.verticalize(df2)
         analyze_vertical(dfv2, 2, folder, 2)
+
 
 if __name__ == '__main__':
     """
@@ -37,12 +38,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Check and create plot folders
-    if not os.path.exists("{}/plots_stage1".format(args.folder)):
-        os.mkdir("{}/plots_stage1".format(args.folder))
+    if not os.path.exists("Data/{}/plots_stage1".format(args.folder)):
+        os.mkdir("Data/{}/plots_stage1".format(args.folder))
         print("Created plots_stage1 folder")
 
-    if not os.path.exists("{}/plots_stage2".format(args.folder)):
-        os.mkdir("{}/plots_stage2".format(args.folder))
+    if not os.path.exists("Data/{}/plots_stage2".format(args.folder)):
+        os.mkdir("Data/{}/plots_stage2".format(args.folder))
         print("Created plots_stage2 folder")
 
     print("Analyzing {}".format(args.folder))

@@ -2,15 +2,13 @@ import pandas as pd
 from tools import *
 
 
-
 def analyze_horizontal(df, n, folder, stage_number):
-    path = '{}/plots_stage{}/'.format(folder, stage_number)
+    path = 'Data/{}/plots_stage{}/'.format(folder, stage_number)
     # ---- Single column distributions -----
     rank_count = count_col(df, "Rank")
     plot_pie(rank_count, "Rank Distribution - Stage {}".format(n), path+"pie_rank_count_s{}.png".format(n))
     class_count = count_col(df, "Class")
     plot_pie(class_count, "Class Distribution - Stage {}".format(n), path+"pie_class_count_s{}.png".format(n))
-
 
     # Rank by Class
     rank_class = count_col(df, ['Rank', 'Class'])
@@ -29,21 +27,16 @@ def analyze_horizontal(df, n, folder, stage_number):
         first_wins = count_col(df, ['Wins', 'First'])
         plot_bar(first_wins, "Times going First vs Wins- Stage {}".format(n), path+'bar_first_vs_win_s{}.png'.format(n), groupby='Wins', stack=False)
 
-    """
-    # Class Statistics
-    # !!! --- Removed archetype distribution for users. Doesn't really add much new info
-    # classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
-    # for c in classes:
-    #     dfc = df[df['Class'] == c]
-    #
-    #     # Class Archetypes
-    #     class_archetype = count_col(dfc, ['Class', 'Archetype'])
-    #     plot_pie(class_archetype, "Archetype Distribution for {} - Users - Stage {}".format(c, n), path+"pie-{}_arch_pie_s{}.png".format(c, n))
-    """
+    # Get Links of good Decks
+    if 'Link' in df.columns:
+        link_df = df[df.Link.notna()][['Class', 'Archetype', 'Wins', 'Link']].\
+            sort_values(['Wins', 'Class', 'Archetype'], ascending=False)
+        format_reddit_table(link_df, folder, stage_number)
+
 
 def analyze_vertical(df, n, folder, stage_number):
     classes = ['Shadowcraft', 'Runecraft', 'Forestcraft', 'Swordcraft', 'Dragoncraft', 'Havencraft', 'Portalcraft', 'Bloodcraft']
-    path = '{}/plots_stage{}/'.format(folder, stage_number)
+    path = 'Data/{}/plots_stage{}/'.format(folder, stage_number)
     for c in classes:
         dfc = stack_match(df, c)   # Full
 
@@ -62,8 +55,8 @@ def analyze_vertical(df, n, folder, stage_number):
 
         # Archetypes
         class_archetype = count_col(dfc, ['Class', 'Archetype'])
-        plot_pie(class_archetype, "Archetype Distribution for {} - Stage {}".format(c, n), path+"pie_{}_arch_pie_s{}.png".format(c, n))
-
+        plot_pie(class_archetype, "Archetype Distribution for {} - Stage {}".format(c, n),
+                 path+"pie_{}_arch_pie_s{}.png".format(c, n))
 
     # Most popular decks
     popular_decks = most_popular_n(df, 10)

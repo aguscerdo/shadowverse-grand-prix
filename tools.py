@@ -27,6 +27,22 @@ def has_first(df):
     return {'First'}.issubset(df.columns) or {'First1', 'First2', 'First3', 'First4', 'First5'}.issubset(df.columns)
 
 
+def format_reddit_table(df, base_folder, stage_number):
+    reddit_table = df.to_csv(sep='|', index=False)
+
+    separator = '|'.join([':--' for _ in range(len(df.columns))])
+    if reddit_table[0] == '|':
+        reddit_table = 'Index%s' % reddit_table
+        separator += '|:--'
+
+    reddit_table = reddit_table.replace('\n', '\n%s\n' % separator, 1)
+
+    path = 'Data/{}/reddit_table_{}.txt'.format(base_folder, stage_number)
+    with open(path, 'w') as file:
+        file.write(reddit_table)
+    print('Reddit table saved for Stage {}...'.format(stage_number))
+
+
 # ------------------ DF works ------------------ #
 def verticalize(df):
 
