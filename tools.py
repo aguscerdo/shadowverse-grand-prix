@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-
+import re
 
 def r_csv(path):
 	return pd.read_csv(str(path))
@@ -30,12 +30,17 @@ def has_first(df):
 def format_reddit_table(df, base_folder, stage_number):
 	reddit_table = df.to_csv(sep='|', index=False)
 
-	separator = '|'.join([':--' for _ in range(len(df.columns))])
+	separator = '|'.join([':-' for _ in range(len(df.columns))])
 	if reddit_table[0] == '|':
-		reddit_table = 'Index%s' % reddit_table
+		reddit_table = 'Index|%s' % reddit_table
 		separator += '|:--'
+	reddit_table = '|%s' % reddit_table
 
 	reddit_table = reddit_table.replace('\n', '\n%s\n' % separator, 1)
+	reddit_table = reddit_table.replace('\n', '|\n|')[:-2]
+	
+	reddit_table = re.sub(r'\|(http[^|]*)\|', r'|[Deck Link](\1)|', reddit_table)
+	reddit_table = re.sub(r'\|(\d)\.\d\|', r'|\1|', reddit_table)
 
 	path = 'Data/{}/reddit_table_{}.txt'.format(base_folder, stage_number)
 	with open(path, 'w') as file:
@@ -136,6 +141,16 @@ def best_decks_n(df, n=10, mincount=10):
 
 	return mean_col(df0, ['Class', 'Archetype'], 'Result').nlargest(n)
 
+
+def stack_and_count(df, to_stack):
+	if not isinstance(to_stack, list):
+		to_stack = [to_stack]
+	
+	stack_list = [df[col] for col in to_stack]
+	stacked = pd.concat(stack_list, 0)
+	count = pd.value_counts(stacked)
+	return count
+	
 
 # ------------------ Plots ------------------ #
 def plot_pie(df, title, filename, size=(6, 6)):
