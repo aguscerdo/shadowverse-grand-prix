@@ -1,0 +1,18 @@
+|Class|Archetype|Wins|Link|
+|:-|:-|:-|:-|
+|Swordcraft|Ironwrought|5|[Deck Link](https://shadowverse-portal.com/deck/1.2.5-Hb2.5-Hb2.5-Hb2.6LFJi.6LFJi.6LFJi.6SuKQ.6SuKQ.6SuKQ.6LCtI.6LCtI.6LCtI.6Sw1o.6Sw1o.6Sw1o.628Pw.628Pw.65-lY.65-lY.6LHlo.6LHlo.6LHlo.6P3SY.6P3SY.6P10I.6P10I.6P4BQ.69rKo.69rKo.69rKo.6DabS.6DabS.6DabS.6LG2Q.6LG2Q.6Sw1y.6Sw1y.6WkAy.6WkAy.6WkAy?lang=en)|
+|Swordcraft|Aggro|5|[Deck Link](https://shadowverse-portal.com/deck/1.2.625k2.625k2.625lm.625lm.625lm.6LFJi.6LFJi.6LFJi.fskF2.fskF2.fskF2.5-Hbq.5-Hbq.5-Hbq.625kM.625kM.625kM.625kg.625kg.625kg.628BY.628BY.628BY.6Sw1o.6Sw1o.6Sw1o.6LCtS.6LCtS.6LCtS.6Sr9c.6Sr9c.6Sr9c.69rKo.69rKo.6HMI2.6HMI2.6HMI2.f-Tro.6LG2Q.6LG2Q?lang=en)|
+|Havencraft|Storm|5|[Deck Link](https://shadowverse-portal.com/deck/1.7.640Ho.640Ho.640Ho.6N9tI.6N9tI.6YXPo.6YXPo.6YXPo.63_po.63_po.63_po.60COQ.60COQ.60COa.60COa.60COa.67st2.67st2.67st2.6JGMs.6JGMs.6N7gg.6N7gg.640IQ.640IQ.640IQ.6JGMY.6JGMY.6JGMY.659nE.6Uq6S.6Uq6S.6JJI2.6JJI2.6JJI2.6477S.67uqM.67uqM.67uqM.6N9OC?lang=en#)|
+|Dragoncraft|Roost|5|[Deck Link](https://shadowverse-portal.com/deck/1.4.5_394.5_394.6I772.6I772.6I772.6LxG2.6LxG2.6LxG2.6PqHY.6PqHY.6PqHY.6TZYW.6TZYW.6Tgt6.6Tgt6.6Tgt6.5_38w.5_38w.5_38w.62vkA.62vkA.ftahQ.ftahQ.6AY0A.6AY0A.6AY0A.62xhK.62xhK.62xhK.5_5bA.6IERy.6IERy.6IERy.62xRi.62xRi.62xRi.6Psjy.6XU_o.6XU_o.6XU_o?lang=en)|
+|Bloodcraft|Vengeance|5|[Deck Link](http://sv.bagoum.com/db/Dlm)|
+|Bloodcraft|Dfb|5|[Deck Link](https://shadowverse-portal.com/deck/1.6.6UP-Q.6UP-Q.6UP-Q.6YBRY.6YBRY.6YBRY.63gJY.63gJY.63gJY.6F6FS.6F6FS.6F6FS.6MkXc.6MkXc.6MkXc.6YFqo.6YFqo.6YFqo.5_pzw.5_pzw.5_pzw.5_p-4.5_p-4.5_p-4.6MlGA.6MlGA.6MlGA.6Y9Ew.63ilo.63ilo.63ilo.6YDOY.6YDOY.6YDOY.63i_Q.63i_Q.63i_Q.6URhy.6URhy.6URhy?lang=en)|
+|Swordcraft|Ironwrought|4|[Deck Link](https://shadowverse-portal.com/deck/1.2.6LFJi.6LFJi.6LFJi.6Soj2.6Soj2.6Soj2.628BY.628BY.628BY.6LFJY.6LFJY.6LFJY.6Sw1o.6Sw1o.6Sw1o.628Pw.628Pw.628Pw.65-lY.65-lY.65-lY.6LHlo.6WfII.6WfII.69oui.69oui.69mSS.69mSS.69mSS.6DabS.6DabS.6DabS.6LG2Q.6LG2Q.5-K1S.5-K1S.6Sw1y.6Sw1y.6WkAy.6WkAy?lang=en)|
+|Shadowcraft|Nephthys|4|[Deck Link](https://shadowverse-portal.com/deck/1.5.6XmqQ.6XmqQ.6XmqQ.6Avi6.6Avi6.6Avi6.6EmHC.6EmHC.6IVXY.6IVXY.6IVXY.6MJgs.6MJgs.6MJgs.6XoXy.6XoXy.6XoXy.6Ei7Q.6Ei7Q.6Ei7Q.68zBM.68zBM.68zBg.68zBg.6XoXo.6XoXo.6XoXo.63Kb4.63Kb4.63KbE.63KbE.63KbE.6AviG.6AviG.6AviG.63Jsg.63Jsg.6A-aI.6A-aI.6A-aI?lang=en)|
+|Runecraft|Burn|4|[Deck Link](http://sv.bagoum.com/db/DmJ)|
+|Havencraft|Tenko|4|[Deck Link](http://sv.bagoum.com/db/Dn5)|
+|Havencraft|Storm|4|[Deck Link](http://sv.bagoum.com/db/DhF)|
+|Dragoncraft|Dragonplate|4|[Deck Link](https://shadowverse-portal.com/deck/1.4.61O4A.61O4A.61O4A.5_394.5_394.6EJDg.6EJDg.6EJDg.6I772.6I772.6I772.6PqHY.6PqHY.6TZYW.6TZYW.6TZYW.5_38w.5_38w.5_38w.62vkA.62vkA.62vkA.6AaSQ.6AaSQ.6TcjA.6TcjA.61O4K.6TeQY.6TeQY.6TeQY.6Tf9Q.6Tf9Q.6Tf9Q.6AY0A.6AV4q.6AV4q.6AV4q.6TeQi.6TeQi.6TeQi?lang=en)|
+|Bloodcraft|Dfb|4|[Deck Link](https://shadowverse-portal.com/deck/1.6.6YBRY.6YBRY.6YBRY.63dOW.63dOW.63dOW.63gJY.63gJY.63gJY.6F6FS.6F6FS.6F6FS.6MkXc.6MkXc.6MkXc.6YFqo.6YFqo.6YFqo.5_pzw.5_pzw.5_pzw.5_p-4.5_p-4.5_p-4.6MlGA.6MlGA.6MlGA.6F6kY.6F6kY.6F6kY.63ilo.63ilo.6YDOY.6YDOY.6YDOY.63i_Q.63i_Q.6URhy.6URhy.6URhy?lang=en)|
+|Bloodcraft|Dfb|4|[Deck Link](http://sv.bagoum.com/db/DkW)|
+|Swordcraft|Spartacus|3|[Deck Link](https://shadowverse-portal.com/deck/1.2.6KSnA.6KSnA.6KSnA.6O-aM.6O-aM.6WfIS.6WfIS.65wcO.65wcO.65wcO.6P1lA.6Wdaw.6Wdaw.6Wdaw.6DYeI.61NLI.61NLI.61NLI.61O4e.61O4e.61O4e.61QWQ.61QWQ.61QWQ.6VuyY.6VuyY.6VuyY.628AI.6HRAY.6HRAY.6HRAY.68zBM.6KS2S.6KS2S.6KS2S.6OIdY.6OIdY.6OIdY.6Sw26.6OL3o?lang=en)|
+|Runecraft|Dshift|3|[Deck Link](http://sv.bagoum.com/db/DhJ)|
