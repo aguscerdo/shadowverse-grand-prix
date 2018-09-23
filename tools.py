@@ -28,6 +28,8 @@ def has_first(df):
 
 
 def format_reddit_table(df, base_folder, stage_number):
+	# Get unique links
+	df = df.drop_duplicates(['Link'])
 	reddit_table = df.to_csv(sep='|', index=False)
 
 	separator = '|'.join([':-' for _ in range(len(df.columns))])
@@ -46,7 +48,6 @@ def format_reddit_table(df, base_folder, stage_number):
 	with open(path, 'w') as file:
 		file.write(reddit_table)
 	print('\t\tReddit table saved'.format(stage_number))
-
 
 # ------------------ DF works ------------------ #
 def verticalize(df):

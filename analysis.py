@@ -22,10 +22,10 @@ def analyze_horizontal(df, n, folder, stage_number):
 	class_wins = count_col(df, ['Class', 'Wins'])
 	plot_bar(class_wins, "Wins per Class - Stage {}".format(n), path+'bar_class_vs_win_s{}.png'.format(n), groupby='Class')
 
-	# Wins vs First or second
-	if has_first(df):
-		first_wins = count_col(df, ['Wins', 'First'])
-		plot_bar(first_wins, "Times going First vs Wins- Stage {}".format(n), path+'bar_first_vs_win_s{}.png'.format(n), groupby='Wins', stack=False)
+	# # Wins vs First or second
+	# if has_first(df):
+	# 	first_wins = count_col(df, ['Wins', 'First'])
+	# 	plot_bar(first_wins, "Times going First vs Wins - Stage {}".format(n), path+'bar_first_vs_win_s{}.png'.format(n), groupby='Wins', stack=False)
 
 	# Get Links of good Decks
 	if 'Link' in df.columns:
