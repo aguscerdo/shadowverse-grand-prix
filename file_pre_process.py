@@ -16,6 +16,13 @@ def main(folder, stages):
 	if stages in [0, 2]:
 		path = 'Data/{}/stage2.csv'.format(folder)
 		cleaning_time(path)
+		
+	# Finals
+	if stages in [0, 3]:
+		path = 'Data/{}/finalsa.csv'.format(folder)
+		cleaning_time(path)
+		path = 'Data/{}/finalsb.csv'.format(folder)
+		cleaning_time(path)
 
 
 # ----------------------------------------------------------------- #
@@ -57,7 +64,6 @@ def global_fixes(path):
 		df[~df.Link.isna() & df.Link.str.match(r'[^(http)]')] = NaN
 		df[~df.Link.isna() & df.Link.str.match(r'^((?!(shadowverse|bagoum)).)*$')] = NaN
 
-	phead(df.Link)
 	w_csv(df, path)
 
 

@@ -10,28 +10,47 @@ def main(folder, stages):
 	# # Stage 1
 	if stages in [0, 1]:
 		print('\tStage 1...')
-		df1 = t.r_csv("Data/{}/stage1.csv".format(folder))
-		analyze_horizontal(df1, 1, folder, 1)
+		path = 'Data/{}/stage1.csv'.format(folder)
+		df = t.r_csv(path)
+		analyze_horizontal(df, 1, folder, 1)
 
-		dfv1 = t.verticalize(df1)
-		analyze_vertical(dfv1, 1, folder, 1)
+		dfv = t.verticalize(df)
+		analyze_vertical(dfv, 1, folder, 1)
 
 	# Stage 2
 	if stages in [0, 2]:
 		print('\tStage 2...')
-		df2 = t.r_csv("Data/{}/stage2.csv".format(folder))
-		analyze_horizontal(df2, 2, folder, 2)
+		path = 'Data/{}/stage2.csv'.format(folder)
+		df = t.r_csv(path)
+		analyze_horizontal(df, 2, folder, 2)
 
-		dfv2 = t.verticalize(df2)
-		analyze_vertical(dfv2, 2, folder, 2)
+		dfv = t.verticalize(df)
+		analyze_vertical(dfv, 2, folder, 2)
 
+	# Finals
+	if stages in [0, 3]:
+		print('\tFinal stage...')
+		path = 'Data/{}/finalsa.csv'.format(folder)
+		df = t.r_csv(path)
+		analyze_horizontal(df, 3, folder)
 
+		dfv = t.verticalize(df)
+		analyze_vertical(dfv, 3, folder)
+
+		path = 'Data/{}/finalsb.csv'.format(folder)
+		df = t.r_csv(path)
+		analyze_horizontal(df, 4, folder)
+
+		dfv = t.verticalize(df)
+		analyze_vertical(dfv, 4, folder)
+		
+		
 if __name__ == '__main__':
 	"""
 	Usage: 'python3 main.py FOLDER_NAME [-s {0|1|2}]
 	
 	- FOLDER_NAME is container where data is: e.g. BOTS_R_1
-	- stage [-s] is which stages to analyze, 0 for all, 1 for stage 1 only, 2 for stage 2 only
+	- stage [-s] is which stages to analyze, 0 for all, 1 for stage 1 only, 2 for stage 2 only, 3 for Finals
 	"""
 
 	parser = argparse.ArgumentParser()
@@ -55,5 +74,12 @@ if __name__ == '__main__':
 		if not os.path.exists("Data/{}/plots_stage2".format(f)):
 			os.mkdir("Data/{}/plots_stage2".format(f))
 			print("\tCreated plots_stage2 folder")
-	
+			
+		if not os.path.exists("Data/{}/plots_finals_a".format(f)):
+			os.mkdir("Data/{}/plots_finals_a".format(f))
+			print("\tCreated plots_finals_a folder")
+		
+		if not os.path.exists("Data/{}/plots_finals_b".format(f)):
+			os.mkdir("Data/{}/plots_finals_b".format(f))
+			print("\tCreated plots_finals_b folder")
 		main(f, args.stage)
