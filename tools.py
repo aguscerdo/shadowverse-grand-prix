@@ -51,24 +51,29 @@ def format_reddit_table(df, base_folder, stage_number):
 
 # ------------------ DF works ------------------ #
 def verticalize(df):
-
 	if df is None:
 		return 0
 	data = []
 	first_flag = has_first(df)
 	for i in range(1, 6):
+		arch_key = 'Archetype{}'.format(i)
+		if arch_key not in df.columns: continue
+		
+		class_key = "Class{}".format(i)
+		first_key = "First{}".format(i)
+		result_key = "Result{}".format(i)
 		if first_flag:
-			d = df[["Timestamp", "Class", "Archetype", "Class{}".format(i), "Archetype{}".format(i),
-					"First{}".format(i), "Result{}".format(i)]]
+			d = df[["Timestamp", "Class", "Archetype", class_key, arch_key,
+					"First{}".format(i), result_key]]
 
-			feed_dict = {"Class{}".format(i): 'Class_o', "Archetype{}".format(i):'Archetype_o',
-						 "First{}".format(i): "First", "Result{}".format(i):"Result"}
+			feed_dict = {class_key: 'Class_o', arch_key:'Archetype_o',
+						 first_key: "First", result_key:"Result"}
 		else:
-			d = df[["Timestamp", "Class", "Archetype", "Class{}".format(i), "Archetype{}".format(i),
-					"Result{}".format(i)]]
+			d = df[["Timestamp", "Class", "Archetype", class_key, arch_key,
+					result_key]]
 
-			feed_dict = {"Class{}".format(i): 'Class_o', "Archetype{}".format(i): 'Archetype_o',
-						 "Result{}".format(i): "Result"}
+			feed_dict = {class_key: 'Class_o', arch_key: 'Archetype_o',
+						 result_key: "Result"}
 
 		data.append(d.rename(columns=feed_dict))
 

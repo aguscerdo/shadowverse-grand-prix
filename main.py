@@ -12,24 +12,24 @@ def main(folder, stages):
 		print('\tStage 1...')
 		path = 'Data/{}/stage1.csv'.format(folder)
 		df = t.r_csv(path)
-		analyze_horizontal(df, 1, folder, 1)
+		analyze_horizontal(df, 1, folder)
 
 		dfv = t.verticalize(df)
-		analyze_vertical(dfv, 1, folder, 1)
+		analyze_vertical(dfv, 1, folder)
 
 	# Stage 2
 	if stages in [0, 2]:
 		print('\tStage 2...')
 		path = 'Data/{}/stage2.csv'.format(folder)
 		df = t.r_csv(path)
-		analyze_horizontal(df, 2, folder, 2)
+		analyze_horizontal(df, 2, folder)
 
 		dfv = t.verticalize(df)
-		analyze_vertical(dfv, 2, folder, 2)
+		analyze_vertical(dfv, 2, folder)
 
 	# Finals
 	if stages in [0, 3]:
-		print('\tFinal stage...')
+		print('\tFinal stage A...')
 		path = 'Data/{}/finalsa.csv'.format(folder)
 		df = t.r_csv(path)
 		analyze_horizontal(df, 3, folder)
@@ -37,6 +37,7 @@ def main(folder, stages):
 		dfv = t.verticalize(df)
 		analyze_vertical(dfv, 3, folder)
 
+		print('\tFinal stage B...')
 		path = 'Data/{}/finalsb.csv'.format(folder)
 		df = t.r_csv(path)
 		analyze_horizontal(df, 4, folder)

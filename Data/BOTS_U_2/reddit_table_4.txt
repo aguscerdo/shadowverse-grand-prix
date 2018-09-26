@@ -1,0 +1,6 @@
+|Class|Archetype|Wins|Link|
+|:-|:-|:-|:-|
+|Shadowcraft|Midrange|3|[Deck Link](https://shadowverse-portal.com/deck/1.5.63E_G.63E_G.63E_G.6XtQc.63FiQ.63FiQ.63FiQ.6Avi6.6Avi6.6Avi6.6IVXY.6IVXY.6IVXY.6MJgs.6MJgs.6MJgs.6MOZC.6MOZC.6XoXy.6XoXy.6XoXy.6Ei7Q.6Ei7Q.6MMrg.6MMrg.6XoXo.6XoXo.6XoXo.6Q8Io.6Q8Io.6Ejr6.6Ejr6.6IaQ2.6IaQ2.63KbE.63KbE.6EojS.6EojS.6EojS.6MPHw?lang=en#)|
+|Dragoncraft|Dragonplate|3|[Deck Link](https://shadowverse-portal.com/deck/1.4.61O4A.61O4A.61O4A.659nE.659nE.61LeE.61LeE.61O4K.61O4K.61O4K.5_394.5_394.5_394.6I772.6I772.6I772.6PqHY.6PqHY.6PqHY.6Tgt6.6Tgt6.6Tgt6.5_38w.5_38w.5_38w.6TeQY.6TeQY.6TeQY.6Tf9Q.6Tf9Q.6Tf9Q.6AY0A.6AY0A.6AY0A.6AV4q.6AV4q.6AV4q.6TeQi.6TeQi.6TeQi?lang=en)|
+|Havencraft|Storm|2|[Deck Link](https://sv.bagoum.com/deckbuilder#NiwzOjEwMTcxMzAxMCwzOjEwNjczMzAxMCwzOjEwOTcxMzAxMCwyOjEwOTA0MTAyMCwzOjEwMzcyMTAzMCwxOjEwODczMTAxMCwyOjEwMDcxNDAxMCwzOjEwMDcxNDAyMCwzOjEwMjcyMzAxMCwyOjEwMTcyMTA4MCwzOjEwMTcxMzA1MCwyOjEwNTcxMTAxMCwyOjEwODc0MTAyMCwzOjEwNTcyMzAxMCwzOjEwMjczMTAzMCwyOjEwOTc0MTAyMA==)|
+|Swordcraft|Spartacus|1|[Deck Link](https://shadowverse-portal.com/deck/1.2.6KSnA.6KSnA.6KSnA.6O-aM.6O-aM.6WfIS.6WfIS.65wcO.65wcO.65wcO.6P1lA.6Wdaw.6Wdaw.6Wdaw.6DYeI.61NLI.61NLI.61NLI.61O4e.61O4e.61O4e.61QWQ.61QWQ.61QWQ.6VuyY.6VuyY.6VuyY.628AI.6HRAY.6HRAY.6HRAY.68zBM.6KS2S.6KS2S.6KS2S.6OIdY.6OIdY.6OIdY.6Sw26.6OL3o?lang=en)|

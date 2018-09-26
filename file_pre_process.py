@@ -10,18 +10,23 @@ def main(folder, stages):
 	# # Stage 1
 	if stages in [0, 1]:
 		path = 'Data/{}/stage1.csv'.format(folder)
+		print('\nCleaning Stage 1...')
 		cleaning_time(path)
 
 	# Stage 2
 	if stages in [0, 2]:
 		path = 'Data/{}/stage2.csv'.format(folder)
+		print('\nCleaning Stage 2...')
 		cleaning_time(path)
 		
 	# Finals
 	if stages in [0, 3]:
 		path = 'Data/{}/finalsa.csv'.format(folder)
+		print('\nCleaning Finals A...')
 		cleaning_time(path)
+		
 		path = 'Data/{}/finalsb.csv'.format(folder)
+		print('\nCleaning Finals B...')
 		cleaning_time(path)
 
 
@@ -57,7 +62,9 @@ def global_fixes(path):
 
 	# Capitalize first letter
 	for i in ['', 1, 2, 3, 4, 5]:
-		df['Archetype{}'.format(i)] = df['Archetype{}'.format(i)].str.title()
+		key = 'Archetype{}'.format(i)
+		if key in df.columns:
+			df[key] = df[key].str.title()
 
 	# Remove bad links'
 	if 'Link' in df.columns:
@@ -86,11 +93,7 @@ def add_columns(path, turn):
 
 def per_entry(path):
 	df = r_csv(path)
-
-	print("Top Decks")
 	df_popular = most_popular_n(verticalize(df))
-	phead(df_popular, 10)
-
 	df_popular.sort_index(0, 0, inplace=True)
 
 	current_class = ""
@@ -98,7 +101,10 @@ def per_entry(path):
 		if key[0] != current_class:
 			current_class = key[0]
 			print("\n-------------------- {} --------------------".format(current_class))
-
+			curr_df = df_popular.loc[current_class]
+			curr_df.sort_values(ascending=False, inplace=True)
+			phead(curr_df)
+		
 		print("\nDeck: {} -- Count: {}".format(key, val))
 		user_input = str(input("Change '{}' for {} to (empty to skip, Q to exit, null for empty): ".format(key[1], key[0])))
 		
@@ -112,6 +118,7 @@ def per_entry(path):
 		for i in ['', 1, 2, 3, 4, 5]:
 			deck_i = 'Class{}'.format(i)
 			archetype_i = 'Archetype{}'.format(i)
+			if archetype_i not in df.columns: continue
 			df.loc[(df[deck_i] == key[0]) & (df[archetype_i] == key[1]), archetype_i] = user_input
 
 	w_csv(df, path)
