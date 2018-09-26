@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import re
 
+do_print_plot = False
+
 def r_csv(path):
 	return pd.read_csv(str(path))
 
@@ -198,5 +200,11 @@ def plot_bar(df, title, filename, groupby=None, stack=True, h=False):
 def pplot(path):
 	plt.tight_layout()
 	plt.savefig(path, bbox_inches='tight')
-	plt.show()
+	if do_print_plot:
+		plt.show()
 	plt.close()
+
+
+def _change_do_plot(new_val):
+	global do_print_plot
+	do_print_plot = new_val
