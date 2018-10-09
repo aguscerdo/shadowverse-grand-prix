@@ -39,6 +39,8 @@ def analyze_horizontal(df, stage_number, folder):
 		link_df = df[df.Link.notna()][['Class', 'Archetype', 'Wins', 'Link']].\
 			sort_values(['Wins', 'Class', 'Archetype'], ascending=False)
 		format_reddit_table(link_df, folder, stage_number)
+		
+	print('\t\tHorizontal analysis finished')
 
 
 def analyze_vertical(df, stage_number, folder):
@@ -76,6 +78,7 @@ def analyze_vertical(df, stage_number, folder):
 	popular_decks = most_popular_n(df, 10)
 	plot_bar(popular_decks, "Most used decks - {}".format(tag),
 	         path + 'bar_most_used_{}.png'.format(plot_tag))
+	print('\t\tVertical analysis finished')
 
 
 def __separate_tags(stage_number, folder):

@@ -45,8 +45,14 @@ def format_reddit_table(df, base_folder, stage_number):
 	
 	reddit_table = re.sub(r'\|(http[^|]*)\|', r'|[Deck Link](\1)|', reddit_table)
 	reddit_table = re.sub(r'\|(\d)\.\d\|', r'|\1|', reddit_table)
+	
+	if stage_number == 3:
+		path = 'Data/{}/reddit_tables/reddit_table_FA.txt'.format(base_folder)
+	elif stage_number == 4:
+		path = 'Data/{}/reddit_tables/reddit_table_FB.txt'.format(base_folder)
+	else:
+		path = 'Data/{}/reddit_tables/reddit_table_{}.txt'.format(base_folder, stage_number)
 
-	path = 'Data/{}/reddit_table_{}.txt'.format(base_folder, stage_number)
 	with open(path, 'w') as file:
 		file.write(reddit_table)
 	print('\t\tReddit table saved'.format(stage_number))
@@ -164,7 +170,7 @@ def stack_and_count(df, to_stack):
 def plot_pie(df, title, filename, size=(6, 6)):
 	font = FontProperties()
 	font.set_weight('bold')
-	df.plot.pie(autopct='%.2f', figsize=size, title=title)  #, labels=['' for _ in df])
+	df.sort_values().plot.pie(autopct='%.2f', figsize=size, title=title)
 	count = df.sum()
 	
 	font = FontProperties()

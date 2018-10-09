@@ -7,6 +7,7 @@ from os import getcwd, listdir
 
 def main(folder, stages):
 	stages = int(stages)
+	create_reddit_folder(folder)
 	# # Stage 1
 	if stages in [0, 1]:
 		create_plots_folder(folder, 'stage1')
@@ -64,6 +65,13 @@ def create_plots_folder(folder, stage):
 	if not os.path.exists(path):
 		os.mkdir(path)
 		print("\tCreated plots_{} folder".format(stage))
+		
+		
+def create_reddit_folder(folder):
+	path = "Data/{}/reddit_tables".format(folder)
+	if not os.path.exists(path):
+		os.mkdir(path)
+		print("\tCreated reddit_tables folder")
 		
 		
 if __name__ == '__main__':
